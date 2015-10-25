@@ -71,6 +71,10 @@
 	<p class="textParagraph"><xsl:apply-templates/></p>
 </xsl:template>
 
+<xsl:template match="head">
+	<h2><xsl:apply-templates/></h2>
+</xsl:template>
+
 <xsl:template match="said">
 	<p>
 		<xsl:apply-templates select="@* | node()"/>
