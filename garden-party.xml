@@ -9,7 +9,13 @@
 				<name>Jonathan Reeve</name>
 			</respStmt>
 		</titleStmt>
+		<publicationStmt>
+			<publisher>
+				Originally made public by Project Gutenberg. 
+			</publisher> 
+		</publicationStmt>
 		<sourceDesc>
+			<p>From Project GITenberg's version of a Project Gutenberg text.</p> 
 		</sourceDesc>
 	</fileDesc>
 	<profileDesc>
@@ -19,8 +25,10 @@
 	</profileDesc>
 </teiHeader>
 <text>
+	<body> 
 	<head>The Garden Party</head>
 
+	<div>
 	<p>
 		And after all the weather was ideal. They could not have had a more
 		perfect day for a garden-party if they had ordered it. Windless, warm,
@@ -292,7 +300,8 @@
 		Jose's face changed. She clasped her hands. She looked mournfully and
 		enigmatically at her mother and Laura as they came in.
 	</p>
-	<pre>
+	<p>
+	<seg type="song">
 		"This Life is Wee-ary,
 		A Tear—a Sigh.
 		A Love that Chan-ges,
@@ -300,7 +309,8 @@
 		A Tear—a Sigh.
 		A Love that Chan-ges,
 		And then... Good-bye!"
-	</pre>
+	</seg>
+	</p>
 	<p>
 		But at the word "Good-bye," and although the piano sounded more
 		desperate than ever, her face broke into a brilliant, dreadfully
@@ -309,11 +319,13 @@
 	<p>
 		"Aren't I in good voice, mummy?" she beamed.
 	</p>
-	<pre>
+	<p>
+	<seg type="song">
 		"This Life is Wee-ary,
 		Hope comes to Die.
 		A Dream—a Wa-kening."
-	</pre>
+	</seg>
+	</p>
 	<p>
 		But now Sadie interrupted them. "What is it, Sadie?"
 	</p>
@@ -890,5 +902,7 @@
 	<p>
 		"Isn't it, darling?" said Laurie.
 	</p>
+</div>
+</body>
 </text>
 </TEI>
