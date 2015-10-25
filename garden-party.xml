@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="garden-party.xsl"/ ?>
 <TEI>
 <teiHeader>
 	<fileDesc>
@@ -28,7 +30,6 @@
 	<body> 
 	<head>The Garden Party</head>
 
-	<div>
 	<p>
 		And after all the weather was ideal. They could not have had a more
 		perfect day for a garden-party if they had ordered it. Windless, warm,
@@ -902,7 +903,6 @@
 	<p>
 		"Isn't it, darling?" said Laurie.
 	</p>
-</div>
 </body>
 </text>
 </TEI>
