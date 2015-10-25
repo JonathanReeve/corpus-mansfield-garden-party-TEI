@@ -81,13 +81,17 @@
 	<xsl:apply-templates/><br/>
 </xsl:template>
 
+<xsl:template match="emph">
+	<span class="emph"><xsl:apply-templates/></span>
+</xsl:template>
+
 <xsl:template match="seg">
 	<span class="lexeme">
-	<xsl:apply-templates select="@id | node()"/>
+	<xsl:apply-templates select="@n | node()"/>
 	</span>
 </xsl:template>
 
-<xsl:template match="@id">
+<xsl:template match="@n">
 	<sup class="lexeme-id">
 	<xsl:value-of select="."/>
 	</sup>

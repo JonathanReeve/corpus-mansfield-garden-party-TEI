@@ -19,3 +19,7 @@ span.lexeme:hover {
 p.song { 
 	margin-left: 30%; 
 } 
+
+span.emph { 
+	font-style: italic; 
+} 
