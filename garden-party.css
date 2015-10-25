@@ -1,0 +1,8 @@
+/* Turning Metadata off for the moment */
+div#metadata { display: none; } 
+
+/* Container */
+#textBody { 
+	width: 500px; 
+	margin: 0 auto; 
+}
