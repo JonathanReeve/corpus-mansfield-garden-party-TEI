@@ -1,5 +1,5 @@
-2. THE GARDEN PARTY.
---------------------
+The Garden Party
+----------------
 
 And after all the weather was ideal. They could not have had a more
 perfect day for a garden-party if they had ordered it. Windless, warm,
