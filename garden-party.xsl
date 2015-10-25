@@ -71,6 +71,16 @@
 	<p class="textParagraph"><xsl:apply-templates/></p>
 </xsl:template>
 
+<xsl:template match="lg">
+	<p class="song">
+		<xsl:apply-templates/>
+	</p>
+</xsl:template>
+
+<xsl:template match="l">
+	<xsl:apply-templates/><br/>
+</xsl:template>
+
 <xsl:template match="seg">
 	<span class="lexeme">
 	<xsl:apply-templates select="@id | node()"/>
