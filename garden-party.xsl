@@ -3,24 +3,7 @@
 
 <xsl:template match="/"> 
 	<html>
-			<style type="text/css">
-				/* Turning Metadata off for the moment */
-				div#metadata { display: none; } 
-
-				/* Container */
-				#textBody { 
-					width: 500px; 
-					margin: 0 auto; 
-				}
-				/* Colorize the characters' dialog */
-				p.Bernard { color: red; } 
-				p.Susan { color: blue; } 
-				p.Rhoda { color: purple; } 
-				p.Louis { color: cyan; } 
-				p.Neville { color: orange; } 
-				p.Jinny { color: green; } 
-
-			</style>
+		<link rel="stylesheet" href="garden-party.css" />
 		<body>
 			<xsl:apply-templates/>
 		</body>
@@ -39,24 +22,24 @@
 	</h1>
 </xsl:template>
 
-<xsl:template match="TEI/teiHeader/fileDesc/editionStmt">
-	<div id="editionStmt" class="metadata">
-		<h2>About this Edition:</h2>
-		<xsl:apply-templates/>
-	</div> <!--end of editionStmt-->
-</xsl:template>
+<!--<xsl:template match="TEI/teiHeader/fileDesc/editionStmt">-->
+	<!--<div id="editionStmt" class="metadata">-->
+		<!--<h2>About this Edition:</h2>-->
+		<!--<xsl:apply-templates/>-->
+	<!--</div> [>end of editionStmt<]-->
+<!--</xsl:template>-->
 
-<xsl:template match="TEI/teiHeader/fileDesc/publicationStmt">
-	<div id="publicationStmt" class="metadata">
-		<h2>About this Publication:</h2>
-		<p>
-			<span class="infoHeader">Published by: </span><xsl:value-of select="publisher"/><br/>
-			<span class="infoHeader">Place: </span><xsl:value-of select="pubPlace"/><br/>
-			<span class="infoHeader">Date: </span><xsl:value-of select="date"/><br/>
-			<span class="infoHeader">Availability: </span><xsl:value-of select="availability"/><br/>
-		</p>
-	</div> <!--end of editionStmt-->
-</xsl:template>
+<!--<xsl:template match="TEI/teiHeader/fileDesc/publicationStmt">-->
+	<!--<div id="publicationStmt" class="metadata">-->
+		<!--<h2>About this Publication:</h2>-->
+		<!--<p>-->
+			<!--<span class="infoHeader">Published by: </span><xsl:value-of select="publisher"/><br/>-->
+			<!--<span class="infoHeader">Place: </span><xsl:value-of select="pubPlace"/><br/>-->
+			<!--<span class="infoHeader">Date: </span><xsl:value-of select="date"/><br/>-->
+			<!--<span class="infoHeader">Availability: </span><xsl:value-of select="availability"/><br/>-->
+		<!--</p>-->
+	<!--</div> [>end of editionStmt<]-->
+<!--</xsl:template>-->
 
 <xsl:template match="TEI/teiHeader/fileDesc/sourceDesc">
 	<div id="sourceDesc" class="metadata">
