@@ -71,6 +71,18 @@
 	<p class="textParagraph"><xsl:apply-templates/></p>
 </xsl:template>
 
+<xsl:template match="seg">
+	<span class="lexeme">
+	<xsl:apply-templates select="@id | node()"/>
+	</span>
+</xsl:template>
+
+<xsl:template match="@id">
+	<sup class="lexeme-id">
+	<xsl:value-of select="."/>
+	</sup>
+</xsl:template> 
+
 <xsl:template match="head">
 	<h2><xsl:apply-templates/></h2>
 </xsl:template>
