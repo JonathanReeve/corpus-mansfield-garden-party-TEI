@@ -28,7 +28,8 @@
 </teiHeader>
 <text>
 	<body> 
-	<head>The Garden Party</head>
+	<head type="title">The Garden Party</head>
+	<head type="byline">by Katherine Mansfield</head>
 
 	<p>
 		And after all the weather was ideal. 

@@ -23,3 +23,7 @@ p.song {
 span.emph { 
 	font-style: italic; 
 } 
+
+.metadata { 
+	display: none; /* hide this for now */ 
+} 

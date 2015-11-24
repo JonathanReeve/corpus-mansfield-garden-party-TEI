@@ -13,13 +13,19 @@
 <xsl:template match="TEI/teiHeader">
 	<div id="metadata">
 		<xsl:apply-templates/>
-	</div> <!--end of Metadata-->
+	</div>
 </xsl:template>
 
-<xsl:template match="TEI/teiHeader/fileDesc/titleStmt">
+<xsl:template match="TEI/teiHeader/fileDesc/titleStmt/title">
 	<h1 id="bookTitle">
 		<xsl:apply-templates/>
 	</h1>
+</xsl:template>
+
+<xsl:template match="TEI/teiHeader/fileDesc/titleStmt/author">
+	<h2 id="author">
+		<xsl:apply-templates/>
+	</h2>
 </xsl:template>
 
 <!--<xsl:template match="TEI/teiHeader/fileDesc/editionStmt">-->
@@ -56,6 +62,12 @@
 
 <xsl:template match="TEI/teiHeader/profileDesc">
 	<div id="profileDesc" class="metadata">
+		<xsl:apply-templates/>
+	</div>
+</xsl:template>
+
+<xsl:template match="TEI/teiHeader/publicationStmt">
+	<div id="publicationStmt" class="metadata">
 		<xsl:apply-templates/>
 	</div>
 </xsl:template>
@@ -97,7 +109,11 @@
 	</sup>
 </xsl:template> 
 
-<xsl:template match="head">
+<xsl:template match="head[@type='title']">
+	<h1><xsl:apply-templates/></h1>
+</xsl:template>
+
+<xsl:template match="head[@type='byline']">
 	<h2><xsl:apply-templates/></h2>
 </xsl:template>
 
