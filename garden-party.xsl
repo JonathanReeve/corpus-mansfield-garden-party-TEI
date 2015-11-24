@@ -5,8 +5,8 @@
 	<html>
 		<head>
 			<link rel="stylesheet" href="garden-party.css" />
-			<script async="async" defer="defer" src="//hypothes.is/embed.js"></script>
-			<script>window.hypothesisConfig=function(){return{showHighlights:true};</script>
+			<!--<script async="async" defer="defer" src="http://hypothes.is/embed.js"></script>-->
+			<!--<script>window.hypothesisConfig=function(){return{showHighlights:true};</script>-->
 		</head>
 		<body>
 			<xsl:apply-templates/>
