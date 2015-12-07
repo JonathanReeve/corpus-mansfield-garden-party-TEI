@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
 
 <xsl:template match="/"> 
 	<html>
 		<head>
 			<link rel="stylesheet" href="garden-party.css" />
-			<!--<script async="async" defer="defer" src="http://hypothes.is/embed.js"></script>-->
-			<!--<script>window.hypothesisConfig=function(){return{showHighlights:true};</script>-->
+			<!--<script async="async" defer="defer" src="embed.js"></script>-->
+			<script async="async" defer="defer" src="hypothesis.min.js"></script>
+			<script>window.hypothesisConfig=function(){return{showHighlights:true};</script>
+			<script src="jquery-2.1.4.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			       <!--alert('loaded!'); -->
+			    $(".tag-item a").click(function(){
+			    	alert('heyo!');
+			    });
+			}); 
+			</script>
 		</head>
 		<body>
 			<xsl:apply-templates/>
@@ -79,8 +89,14 @@
 <!--This is for the whole body of the text -->
 <xsl:template match="TEI/text/body">
 	<div id="textBody">
+		<table>
 			<xsl:apply-templates/>
+		</table>
 	</div> <!--End of Container-->
+</xsl:template>
+
+<xsl:template match="ab">
+	<tr class="interp"><xsl:apply-templates/></tr>
 </xsl:template>
 
 <xsl:template match="p">
@@ -102,15 +118,41 @@
 </xsl:template>
 
 <xsl:template match="seg">
-	<span class="lexeme">
+	<td class="lexeme">
+		<xsl:attribute name="id">
+			<xsl:value-of select="@n"/>
+		</xsl:attribute>
 	<xsl:apply-templates select="@n | node()"/>
-	</span>
+	</td>
 </xsl:template>
 
 <xsl:template match="@n">
 	<sup class="lexeme-id">
 	<xsl:value-of select="."/>
 	</sup>
+</xsl:template> 
+
+<xsl:template match="interp">
+	<td class="interp">
+		<xsl:apply-templates select="@type | node()"/>
+	</td>
+</xsl:template>
+
+<xsl:template match="@type">
+	<xsl:for-each select=".">
+	<span class="tag">
+		<xsl:value-of select="."/>
+	</span>
+	</xsl:for-each>
+</xsl:template> 
+
+<xsl:template match="ptr">
+	<a>
+	<xsl:attribute name="href">
+		<xsl:value-of select="@target"/>
+	</xsl:attribute>
+	<xsl:apply-templates/>
+	</a>
 </xsl:template> 
 
 <xsl:template match="head[@type='title']">
@@ -122,9 +164,7 @@
 </xsl:template>
 
 <xsl:template match="said">
-	<p>
-		<xsl:apply-templates select="@* | node()"/>
-	</p>
+	<xsl:apply-templates select="@* | node()"/>
 </xsl:template>
 
 <xsl:template match="@who">

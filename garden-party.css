@@ -3,7 +3,7 @@ div#metadata { display: none; }
 
 /* Container */
 #textBody { 
-	width: 500px; 
+	width: 80%; 
 	margin: 0 auto; 
 }
 
@@ -24,6 +24,26 @@ span.emph {
 	font-style: italic; 
 } 
 
+span.tag { 
+	background-color: orange; 
+	border: 1px solid blue; 
+	padding: 1px;
+	margin: 1px;
+} 
+
+p:before { 
+	content: "¶"; 
+	position: relative;
+	right: 20px;
+} 
+
 .metadata { 
 	display: none; /* hide this for now */ 
 } 
+
+td { 
+	vertical-align: top; 
+	padding: 4px; 
+	width: 50%
+} 
+
