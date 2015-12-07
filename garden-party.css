@@ -1,6 +1,10 @@
 /* Turning Metadata off for the moment */
 div#metadata { display: none; } 
 
+a { 
+	color: #A33; 
+} 
+
 /* Container */
 #textBody { 
 	width: 80%; 
@@ -16,19 +20,21 @@ span.lexeme:hover {
 	color: #A33; 
 } 
 
-p.song { 
-	margin-left: 30%; 
-} 
-
 span.emph { 
 	font-style: italic; 
 } 
 
 span.tag { 
-	background-color: orange; 
-	border: 1px solid blue; 
-	padding: 1px;
+	background-color: #F2D2C6; 
+	border: 1px solid #F0A9A1; 
+	border-radius: 2px; 
+	font-size: 80%; 
+	padding: 2px;
 	margin: 1px;
+} 
+
+span.tag:hover { 
+	background-color: #F0A9A1;
 } 
 
 p:before { 

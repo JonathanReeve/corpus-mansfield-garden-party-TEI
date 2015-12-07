@@ -32,45 +32,64 @@
 	<head type="byline">by Katherine Mansfield</head>
 
 	<p>
-		<ab type="group">
+		<ab>
 			<seg n="1">And after all the weather was ideal.</seg>
-			<interp n="1" type="interruptions">This sentence begins <emph>in medias res</emph></interp>
+			<interp n="1">This sentence begins <emph>in medias res</emph>
+				<desc>interruptions</desc>
+				<desc>medias-res</desc>
+			</interp>
+			
 		</ab> 
 
-		<ab type="group">
+		<ab>
 			<seg n="2">They could not have had a more perfect day for a garden-party if they had ordered it.</seg>  
-			<interp n="2" type="perfection">This is the first instance of the adjective "perfect" which will appear several times in the story, highlighting an implicit hierarchy of weather and other conditions that will be challenged by the carter's death.</interp>
+			<interp n="2">This is the first instance of the adjective "perfect" which will appear several times in the story, highlighting an implicit hierarchy of weather and other conditions that will be challenged by the carter's death.
+				<desc>perfection</desc>
+			</interp>
 		</ab>
 
-		<ab type="group">
+		<ab>
 		<seg n="3">Windless, warm, the sky without a cloud. Only the blue was veiled with a haze of light gold, as it is sometimes in early summer.</seg>
-		<interp n="3" type="wind colors">The day is "windless"; this contrasts with 000? where "little faint winds were playing chase."</interp>
+		<interp n="3">The day is "windless"; this contrasts with 000? where "little faint winds were playing chase."
+			<desc>wind</desc>
+			<desc>colors</desc>
+		</interp>
 		</ab>
 
 		<ab>
 		<seg n="4">
 		The gardener had been up since dawn, mowing the lawns and sweeping them, until the grass and the dark flat rosettes where the daisy plants had been seemed to shine. 
 		</seg>
-		<interp n="4" type="flora">Rosettes, daisies.</interp>
+		<interp n="4">Rosettes, daisies.
+			<desc>flora</desc>
+		</interp>
 		</ab>
 
 		<ab>
 			<seg n="5">
 			As for the roses, you could not help feeling they understood that roses are the only flowers that impress people at garden-parties; the only flowers that everybody is certain of knowing. 
 			</seg>
-			<interp n="5" type="flora">Blah blah.</interp>
+			<interp n="5">
+				Blah blah.
+				<desc>flora</desc>
+			</interp>
 		</ab>
 
 		<ab>
 			<seg n="6">Hundreds, yes, literally hundreds, had come out in a single night; the green bushes bowed down as though they had been visited by archangels.</seg>
-			<interp n="6" type="colors green">The first instance of the term "green."</interp>
+			<interp n="6">The first instance of the term "green."
+				<desc>colors</desc>
+				<desc>green</desc>
+			</interp>
 		</ab>
 	</p>
 
 	<p>
 		<ab>
 			<seg n="7">Breakfast was not yet over before the men came to put up the marquee.</seg>
-			<interp n="7" type="interruptions">This continues the theme of interruptions and <emph>medias res</emph> begun in #1.</interp>
+			<interp n="7">This continues the theme of interruptions and <emph>medias res</emph> begun in #1.
+				<desc>interruptions</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -85,7 +104,11 @@
 					everything to you children this year. Forget I am your mother. Treat me
 					as an honoured guest."
 			</seg>
-			<interp n="10" type="coming-of-age carnival">Coming-of-age: Mrs. Sheridan releases her authority for the duration of the party.</interp>
+			<interp n="10">
+				Coming-of-age: Mrs. Sheridan releases her authority for the duration of the party.
+				<desc>coming-of-age</desc>
+				<desc>carnival</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -96,7 +119,12 @@
 				turban, with a dark wet curl stamped on each cheek. Jose, the butterfly,
 				always came down in a silk petticoat and a kimono jacket.
 		</seg>
-		<interp n="11" type="orientalism colors butterflies">Meg and Jose are revealed to be dressed fashionably, both in traditional apparel of distant countries. Meg's "green turban" is the </interp>
+		<interp n="11">
+			Meg and Jose are revealed to be dressed fashionably, both in traditional apparel of distant countries. Meg's "green turban" is the 
+			<desc>orientalism</desc>
+			<desc>colors</desc>
+			<desc>butterflies</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -111,7 +139,10 @@
 		<seg n="13">
 			Away Laura flew, still holding her piece of bread-and-butter.
 		</seg>
-		<interp n="13" type="flora butterflies">Now Laura is the "butterfly" instead of Jose (see <ptr target="#11">L11</ptr>), "flying" away with her bread-and-butter. By metaphorical extension, Laura is a "social butterfly," as well, flying from person to person, gathering nectar from each.</interp>
+		<interp n="13">Now Laura is the "butterfly" instead of Jose (see <ptr target="#11">L11</ptr>), "flying" away with her bread-and-butter. By metaphorical extension, Laura is a "social butterfly," as well, flying from person to person, gathering nectar from each.
+			<desc>flora</desc>
+			<desc>butterflies</desc>
+		</interp>
 		</ab>
 			
 		<ab>
@@ -120,7 +151,9 @@
 				loved having to arrange things; she always felt she could do it so much
 				better than anybody else.
 			</seg>
-			<interp n="14" type=""></interp>
+			<interp n="14">
+				<desc></desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -130,14 +163,18 @@
 				path. They carried staves covered with rolls of canvas, and they had big
 				tool-bags slung on their backs. They looked impressive. 
 			</seg>
-			<interp n="15"></interp>
+			<interp n="15">
+				<desc></desc>
+			</interp>
 		</ab>
 		<ab>
 			<seg n="16">
 				Laura wished now that she had not got the bread-and-butter, but there was nowhere to put it, and she couldn't possibly throw it away. 
 				She blushed and tried to look severe and even a little bit short-sighted as she came up to them.
 			</seg>
-			<interp n="16" type="butterflies">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>.</interp>
+			<interp n="16">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>.
+				<desc>butterflies</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -146,7 +183,7 @@
 			"Good morning," she said, copying her mother's voice. 
 			But that sounded so fearfully affected that she was ashamed, and stammered like a little girl, "Oh—er—have you come—is it about the marquee?"
 		</seg>
-		<interp n="17" type=""></interp>
+		<interp n="17"></interp>
 		</ab>
 	</p>
 	<p>
@@ -154,7 +191,9 @@
 		<seg n="18">
 			"That's right, miss," said the tallest of the men, a lanky, freckled fellow, and he shifted his tool-bag, knocked back his straw hat and smiled down at her. "That's about it."
 		</seg>
-		<interp n="18" type="class">The man's are a sign that he has spent time outdoors, and his straw hat--practical for the summer, is most likely a sign of his social class.</interp>
+		<interp n="18">The man's are a sign that he has spent time outdoors, and his straw hat--practical for the summer, is most likely a sign of his social class.
+			<desc>class</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -165,7 +204,11 @@
 				they were smiling too. "Cheer up, we won't bite," their smile seemed
 				to say. 
 			</seg>
-			<interp n="19" type="sexuality eyes desire">The details Laura notices in the man suggest her desirous gaze toward him. Unlike the blue of the sky, which in <ptr target="#3">L3</ptr> is "veiled with a haze of gold," </interp>
+			<interp n="19">The details Laura notices in the man suggest her desirous gaze toward him. Unlike the blue of the sky, which in <ptr target="#3">L3</ptr> is "veiled with a haze of gold," 
+				<desc>sexuality</desc>
+				<desc>eyes</desc>
+				<desc>desire</desc>
+			</interp>
 		</ab>
 
 		<ab>
@@ -173,7 +216,9 @@
 				How very nice workmen were! And what a beautiful morning! She
 				mustn't mention the morning; she must be business-like. The marquee.
 			</seg>
-			<interp n="20" type="reminders">The final sentence here contains just two words, "the marquee." They are Laura's reminder to herself to stay focused on her task.</interp>
+			<interp n="20">The final sentence here contains just two words, "the marquee." They are Laura's reminder to herself to stay focused on her task.
+				<desc>reminders</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -181,7 +226,7 @@
 		<seg n="21">
 			"Well, what about the lily-lawn? Would that do?"
 		</seg>
-		<interp n="21" type=""></interp>
+		<interp n="21"></interp>
 		</ab>
 	</p>
 	<p>
@@ -191,7 +236,7 @@
 				bread-and-butter. They turned, they stared in the direction. A little
 				fat chap thrust out his under-lip, and the tall fellow frowned.
 		</seg>
-		<interp n="22" type=""></interp>
+		<interp n="22"></interp>
 		</ab>
 	</p>
 	<p>
@@ -202,7 +247,7 @@
 				to put it somewhere where it'll give you a bang slap in the eye, if you
 				follow me."
 		</seg>
-		<interp n="22" type=""></interp>
+		<interp n="22"></interp>
 		</ab>
 	</p>
 	<p>
@@ -212,7 +257,10 @@
 				respectful of a workman to talk to her of bangs slap in the eye. But she
 				did quite follow him.
 		</seg>
-		<interp n="23" type="desire language">The onomatopoeic monosyllables of "bang" and "slap" may sound crude to Laura for the level of discourse suggested by their Anglo-Saxon etymology, and by the unnecessary violence they lend to the visual apprehension of the marquee.</interp>
+		<interp n="23">The onomatopoeic monosyllables of "bang" and "slap" may sound crude to Laura for the level of discourse suggested by their Anglo-Saxon etymology, and by the unnecessary violence they lend to the visual apprehension of the marquee.
+			<desc>desire</desc>
+			<desc>language</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -221,7 +269,7 @@
 			"A corner of the tennis-court," she suggested. "But the band's going to
 				be in one corner."
 		</seg>
-		<interp n="24" type=""></interp>
+		<interp n="24"></interp>
 		</ab>
 	</p>
 	<p>
@@ -232,7 +280,9 @@
 				tennis-court.
 			What was he thinking?
 		</seg>
-		<interp n="25" type="eyes">Laura is also noticing this workman's eyes, which are dark like those of the first workman from <ptr target="#19">L19</ptr>.</interp>
+		<interp n="25">Laura is also noticing this workman's eyes, which are dark like those of the first workman from <ptr target="#19">L19</ptr>.
+			<desc>eyes</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -240,7 +290,9 @@
 		<seg n="26">
 			"Only a very small band," said Laura gently. Perhaps he wouldn't mind so much if the band was quite small. But the tall fellow interrupted.
 		</seg>
-		<interp n="26" type="class">Laura downplays the size of the band, to ease the class anxiety she imagines the workman might be experiencing.</interp>
+		<interp n="26">Laura downplays the size of the band, to ease the class anxiety she imagines the workman might be experiencing.
+			<desc>class</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -249,7 +301,7 @@
 			"Look here, miss, that's the place. Against those trees. Over there.
 				That'll do fine."
 		</seg>
-		<interp n="27" type=""></interp>
+		<interp n="27"></interp>
 		</ab>
 	</p>
 	<p>
@@ -260,7 +312,12 @@
 				island, proud, solitary, lifting their leaves and fruits to the sun in a
 				kind of silent splendour. Must they be hidden by a marquee?
 		</seg>
-		<interp n="28" type="flora colors interruptions perfection">Karaka trees are native to New Zealand--by no means a "desert" island, but an island nonetheless. Karakas bear clusters of highly poisonous yellow fruit. Like the blue sky which is "veiled" by the gold haze in <ptr target="#3">L3</ptr>, the trees are yellowed by this poisonous fruit. The perfect day, as well, will soon be interrupted with the news of the carter's death.</interp>
+		<interp n="28">Karaka trees are native to New Zealand--by no means a "desert" island, but an island nonetheless. Karakas bear clusters of highly poisonous yellow fruit. Like the blue sky which is "veiled" by the gold haze in <ptr target="#3">L3</ptr>, the trees are yellowed by this poisonous fruit. The perfect day, as well, will soon be interrupted with the news of the carter's death.
+			<desc>flora</desc>
+			<desc>colors</desc>
+			<desc>interruptions</desc>
+			<desc>perfection</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -269,7 +326,7 @@
 			They must. Already the men had shouldered their staves and were making
 			for the place. 
 		</seg>
-		<interp n="29" type=""></interp>
+		<interp n="29"></interp>
 		</ab>
 		
 		<ab>
@@ -281,7 +338,9 @@
 			the smell of lavender. How many men that she knew would have done such
 			a thing? 
 		</seg>
-		<interp n="30" type="flora"></interp>
+		<interp n="30">
+			<desc>flora</desc>
+		</interp>
 		</ab>
 		
 		<ab>
@@ -291,7 +350,10 @@
 			danced with and who came to Sunday night supper? She would get on much
 			better with men like these.
 		</seg>
-		<interp n="31" type="desire class">Laura's sexual desire blends with her desire for authenticity.</interp>
+		<interp n="31">Laura's sexual desire blends with her desire for authenticity.
+			<desc>desire</desc>
+			<desc>class</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -301,7 +363,10 @@
 			the back of an envelope, something that was to be looped up or left to
 			hang, of these absurd class distinctions. 
 		</seg>
-		<interp n="32" type="interruptions class">The figurative interruptions of the previous lexias are here literally manifested in this interrupted sentence. Laura's thought is suspended, unable to complete itself, while she watches the workman draw on the envelope.</interp>
+		<interp n="32">The figurative interruptions of the previous lexias are here literally manifested in this interrupted sentence. Laura's thought is suspended, unable to complete itself, while she watches the workman draw on the envelope.
+			<desc>interruptions</desc>
+			<desc>class</desc>
+		</interp>
 
 		</ab>
 		
@@ -309,7 +374,7 @@
 		<seg n="33">
 			Well, for her part, she didn't feel them. Not a bit, not an atom... 
 		</seg>
-		<interp n="33" type="">This is the first of several ellipses to appear in the story. Laura's interrupted throught from <ptr target="#32">L32</ptr> is literally manifested here in the trailing off suggested by the ellipsis. Since the series that begins "not a" features progressively smaller units, perhaps this trailing off can be partially explained because, in the scientific sense at least, an atom may not be subdivided and maitain its elemental properties.</interp>
+		<interp n="33">This is the first of several ellipses to appear in the story. Laura's interrupted throught from <ptr target="#32">L32</ptr> is literally manifested here in the trailing off suggested by the ellipsis. Since the series that begins "not a" features progressively smaller units, perhaps this trailing off can be partially explained because, in the scientific sense at least, an atom may not be subdivided and maitain its elemental properties.</interp>
 		</ab>
 
 		<ab>
@@ -318,7 +383,9 @@
 			Some one whistled, some one sang out, "Are you right
 			there, matey?" "Matey!" The friendliness of it, the—the—
 		</seg>
-		<interp n="34" type="interruptions">Laura's thought interruptions reach an apex here, trailing off even mid-clause.</interp>
+		<interp n="34">Laura's thought interruptions reach an apex here, trailing off even mid-clause.
+			<desc>interruptions</desc>
+		</interp>
 		</ab>
 
 		<ab>
@@ -328,7 +395,7 @@
 				bread-and-butter as she stared at the little drawing. She felt just like
 				a work-girl.
 		</seg>
-		<interp n="35" type=""></interp>
+		<interp n="35"></interp>
 		</ab>
 	</p>
 	<p>
@@ -337,7 +404,7 @@
 			"Laura, Laura, where are you? Telephone, Laura!" a voice cried from the
 			house.
 		</seg>
-		<interp n="36" type=""></interp>
+		<interp n="36"></interp>
 		</ab>
 	</p>
 	<p>
@@ -347,7 +414,7 @@
 			across the veranda, and into the porch. In the hall her father and
 			Laurie were brushing their hats ready to go to the office.
 		</seg>
-		<interp n="37" type=""></interp>
+		<interp n="37"></interp>
 		</ab>
 	</p>
 	<p>
@@ -356,7 +423,7 @@
 			"I say, Laura," said Laurie very fast, "you might just give a squiz at
 			my coat before this afternoon. See if it wants pressing."
 		</seg>
-		<interp n="38" type="">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang. The maintenance of their hats and their office destination shows them to be white-collar workers, but not so rich that they don't have to brush their hats themselves.</interp>
+		<interp n="38">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang. The maintenance of their hats and their office destination shows them to be white-collar workers, but not so rich that they don't have to brush their hats themselves.</interp>
 		</ab>
 	</p>
 	<p>
@@ -366,7 +433,9 @@
 			Laurie and gave him a small, quick squeeze. "Oh, I do love parties,
 			don't you?" gasped Laura.
 		</seg>
-		<interp n="39" type="inversions">Laura's syntax with her brother asks for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?".</interp>
+		<interp n="39">Laura's syntax with her brother asks for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?".
+			<desc>inversions</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -375,7 +444,7 @@
 			"Ra-ther," said Laurie's warm, boyish voice, and he squeezed his sister
 			too, and gave her a gentle push. "Dash off to the telephone, old girl."
 		</seg>
-		<interp n="40" type=""></interp>
+		<interp n="40"></interp>
 		</ab>
 	</p>
 	<p>
@@ -383,7 +452,10 @@
 		<seg n="41">
 			The telephone. 
 		</seg>
-		<interp n="41" type="reminders">The two-word sentence "the telephone" parallels another two-word sentence Laura thinks in <ptr target="#20">L20</ptr>: "the marquee." Here, Laura is distracted, and reminds herself of what she is supposed to be doing.</interp>
+		<interp n="41">
+			The two-word sentence "the telephone" parallels another two-word sentence Laura thinks in <ptr target="#20">L20</ptr>: "the marquee." Here, Laura is distracted, and reminds herself of what she is supposed to be doing.
+			<desc>reminders</desc>
+		</interp>
 		</ab>
 		<ab>
 			<seg n="42">
@@ -394,7 +466,10 @@
 				should. One moment—hold the line. Mother's calling." And Laura sat
 				back. "What, mother? Can't hear."
 			</seg>
-			<interp n="42" type="interruptions perfection">Laura doesn't answer the phone "hello?", but rather "yes, yes." We only hear one half of this telephone conversation, and so it appears fragmented. It is as if Laura's speech is interrupted by the pace of the conversation.</interp>
+			<interp n="42">Laura doesn't answer the phone "hello?", but rather "yes, yes." We only hear one half of this telephone conversation, and so it appears fragmented. It is as if Laura's speech is interrupted by the pace of the conversation.
+				<desc>interruptions</desc>
+				<desc>perfection</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -403,7 +478,9 @@
 			Mrs. Sheridan's voice floated down the stairs. "Tell her to wear that
 			sweet hat she had on last Sunday."
 		</seg>
-		<interp n="43" type="butterflies">Mrs. Sheridan's voice here "floats" like a butterfly.</interp>
+		<interp n="43">Mrs. Sheridan's voice here "floats" like a butterfly.
+			<desc>butterflies</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -412,7 +489,7 @@
 			"Mother says you're to wear that sweet hat you had on last Sunday. Good.
 			One o'clock. Bye-bye."
 		</seg>
-		<interp n="44" type=""></interp>
+		<interp n="44"></interp>
 		</ab>
 	</p>
 	<p>
@@ -425,7 +502,12 @@
 			quick steps and running voices. The green baize door that led to the
 			kitchen regions swung open and shut with a muffled thud. 
 		</seg>
-		<interp n="45" type="colors green sounds class">Green baize doors were typically the doors that divide the servant's quarters from the rest of the house. Green baize, a thick fabric, serves to muffle the sounds from either side, effectively serving as a class barrier. Baize of this color is also used to cover billiards tables, where the dark green color resembles a lawn. The green color, thus, resonates with the usage of "green," to describe the bushes in <ptr target="#6">L6</ptr>.</interp>
+		<interp n="45">Green baize doors were typically the doors that divide the servant's quarters from the rest of the house. Green baize, a thick fabric, serves to muffle the sounds from either side, effectively serving as a class barrier. Baize of this color is also used to cover billiards tables, where the dark green color resembles a lawn. The green color, thus, resonates with the usage of "green," to describe the bushes in <ptr target="#6">L6</ptr>.
+			<desc>colors</desc>
+			<desc>green</desc>
+			<desc>sounds</desc>
+			<desc>class</desc>
+		</interp>
 		</ab>
 		
 		<ab>
@@ -433,7 +515,11 @@
 			And now there came a long, chuckling absurd sound. It was the heavy piano being moved
 			on its stiff castors. 
 		</seg>
-		<interp n="46" type="colors sounds absurdity">The piano, which is soon to play the role of the chorus or the court jester, telling uncomfortable truths still unknown to the characters, is introduced here as "chuckling," almost in a kind of perverse pleasure of its ironic knowledge. The piano's sound joins "class distinctions" of <ptr target="#32">L32</ptr> and later (L000???), Laura herself, as something "absurd."</interp>
+		<interp n="46">The piano, which is soon to play the role of the chorus or the court jester, telling uncomfortable truths still unknown to the characters, is introduced here as "chuckling," almost in a kind of perverse pleasure of its ironic knowledge. The piano's sound joins "class distinctions" of <ptr target="#32">L32</ptr> and later (L000???), Laura herself, as something "absurd."
+			<desc>colors</desc>
+			<desc>sounds</desc>
+			<desc>absurdity</desc>
+		</interp>
 		</ab>
 			
 		<ab>
@@ -442,7 +528,10 @@
 				always like this? Little faint winds were playing chase, in at the tops
 				of the windows, out at the doors. 
 			</seg>
-			<interp n="47" type="play wind">The air was not always like this, since it was described in <ptr target="#3">L3</ptr> as "windless." Since the day's windlessness was given as a sign of its perfection, the "little faint winds" are a sign of the day's perfection starting to unravel, playfully, starting with the edges of the house.</interp>
+			<interp n="47">The air was not always like this, since it was described in <ptr target="#3">L3</ptr> as "windless." Since the day's windlessness was given as a sign of its perfection, the "little faint winds" are a sign of the day's perfection starting to unravel, playfully, starting with the edges of the house.
+				<desc>play</desc>
+				<desc>wind</desc>
+			</interp>
 		</ab>
 
 		<ab>
@@ -452,7 +541,9 @@
 				Darling little spots. Especially the one on the inkpot lid. It was quite
 				warm. A warm little silver star. She could have kissed it.
 			</seg>
-			<interp n="48" type="play">This sensory attention to natural details parallels that of the workman who smells the lavender in <ptr target="#30">L30</ptr>. Laura's affection for the sun spot marks her as one for whom desires to kiss might be mounting.</interp>
+			<interp n="48">This sensory attention to natural details parallels that of the workman who smells the lavender in <ptr target="#30">L30</ptr>. Laura's affection for the sun spot marks her as one for whom desires to kiss might be mounting.
+				<desc>play</desc>
+			</interp>
 		</ab>
 	</p>
 	<p>
@@ -460,9 +551,9 @@
 			<seg n="49">
 				The front door bell pealed, and there sounded the rustle of Sadie's
 				print skirt on the stairs. A man's voice murmured; Sadie answered,
-				careless, "I'm sure I don't know. Wait. I'll ask Mrs Sheridan."
+			careless, "I'm sure I don't know. Wait. I'll ask Mrs Sheridan."
 			</seg>
-			<interp n="49" type="">The florist, who is mentioned in <ptr target="#51">L51</ptr>, but who is nameless, is not heard to speak here, only to "murmur."</interp>
+			<interp n="49">The florist, who is mentioned in <ptr target="#51">L51</ptr>, but who is nameless, is not heard to speak here, only to "murmur."</interp>
 		</ab>
 	</p>
 	<p>
@@ -470,7 +561,7 @@
 		<seg n="50">
 			"What is it, Sadie?" Laura came into the hall.
 		</seg>
-		<interp n="50" type=""></interp>
+		<interp n="50"></interp>
 		</ab>
 	</p>
 	<p>
@@ -478,7 +569,7 @@
 		<seg n="51">
 			"It's the florist, Miss Laura."
 		</seg>
-		<interp n="51" type=""></interp>
+		<interp n="51"></interp>
 		</ab>
 	</p>
 	<p>
@@ -489,7 +580,11 @@
 			lilies, big pink flowers, wide open, radiant, almost frighteningly alive
 			on bright crimson stems.
 		</seg>
-		<interp n="52" type="sexuality flora colors">Sexual imagery abounds here in these "wide open," "pink lilies" that are "almost frighteningly alive." The obvious comparison is to Laura, who is, evidenced by her desirous glances in <ptr target="#19">L19</ptr>, experiencing a kind of sexual awakening.</interp>
+		<interp n="52">Sexual imagery abounds here in these "wide open," "pink lilies" that are "almost frighteningly alive." The obvious comparison is to Laura, who is, evidenced by her desirous glances in <ptr target="#19">L19</ptr>, experiencing a kind of sexual awakening.
+			<desc>sexuality</desc>
+			<desc>flora</desc>
+			<desc>colors</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -499,7 +594,11 @@
 			crouched down as if to warm herself at that blaze of lilies; she felt
 			they were in her fingers, on her lips, growing in her breast.
 		</seg>
-		<interp n="53" type="sexuality flora colors">The sensual imagery of <ptr target="#52">L52</ptr> intensifies here, in the moan of pleasure, and her experience of the lilies as a "blaze" she desires to "warm herself" against. </interp>
+		<interp n="53">The sensual imagery of <ptr target="#52">L52</ptr> intensifies here, in the moan of pleasure, and her experience of the lilies as a "blaze" she desires to "warm herself" against. 
+			<desc>sexuality</desc>
+			<desc>flora </desc>
+			<desc>colors</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -508,7 +607,7 @@
 			"It's some mistake," she said faintly. "Nobody ever ordered so many.
 			Sadie, go and find mother."
 		</seg>
-		<interp n="54" type=""></interp>
+		<interp n="54"></interp>
 		</ab>
 	</p>
 	<p>
@@ -516,7 +615,7 @@
 		<seg n="55">
 			But at that moment Mrs. Sheridan joined them.
 		</seg>
-		<interp n="55" type=""></interp>
+		<interp n="55"></interp>
 		</ab>
 	</p>
 	<p>
@@ -527,7 +626,7 @@
 			I saw them in the window. And I suddenly thought for once in my life I
 			shall have enough canna lilies. The garden-party will be a good excuse."
 		</seg>
-		<interp n="56" type=""></interp>
+		<interp n="56"></interp>
 		</ab>
 	</p>
 	<p>
@@ -538,7 +637,7 @@
 			her arm round her mother's neck and gently, very gently, she bit her
 			mother's ear.
 		</seg>
-		<interp n="57" type=""></interp>
+		<interp n="57"></interp>
 		</ab>
 	</p>
 	<p>
@@ -547,7 +646,9 @@
 			"My darling child, you wouldn't like a logical mother, would you? Don't
 			do that. Here's the man."
 		</seg>
-		<interp n="58" type="carnival">The role-reversal of <ptr target="#9">L9</ptr> continues.</interp>
+		<interp n="58">The role-reversal of <ptr target="#9">L9</ptr> continues.
+			<desc>carnival</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -555,7 +656,7 @@
 		<seg n="59">
 			He carried more lilies still, another whole tray.
 		</seg>
-		<interp n="59" type=""></interp>
+		<interp n="59"></interp>
 		</ab>
 	</p>
 	<p>
@@ -564,7 +665,7 @@
 			"Bank them up, just inside the door, on both sides of the porch,
 			please," said Mrs. Sheridan. "Don't you agree, Laura?"
 		</seg>
-		<interp n="60" type=""></interp>
+		<interp n="60"></interp>
 		</ab>
 	</p>
 	<p>
@@ -572,7 +673,7 @@
 		<seg n="61">
 			"Oh, I <emph>do</emph>, mother."
 		</seg>
-		<interp n="61" type=""></interp>
+		<interp n="61"></interp>
 		</ab>
 	</p>
 	<p>
@@ -581,7 +682,7 @@
 			In the drawing-room Meg, Jose and good little Hans had at last succeeded
 			in moving the piano.
 		</seg>
-		<interp n="62" type=""></interp>
+		<interp n="62"></interp>
 		</ab>
 	</p>
 	<p>
@@ -590,7 +691,9 @@
 			"Now, if we put this chesterfield against the wall and move everything
 			out of the room except the chairs, don't you think?"
 		</seg>
-		<interp n="63" type="class">Jose uses the brand name of the piano rather than its generic term, signaling her as one of a class high enough to descriminate between brands of pianos.</interp>
+		<interp n="63">Jose uses the brand name of the piano rather than its generic term, signaling her as one of a class high enough to descriminate between brands of pianos.
+			<desc>class</desc>
+		</interp>
 		</ab>
 	</p>
 	<p>
@@ -598,7 +701,7 @@
 		<seg n="64">
 			"Quite."
 		</seg>
-		<interp n="64" type="">It is unclear whether this is Meg or Hans speaking, but it is probably Hans, since Jose addresses him in the next paragraph. This one-word answer, an intensifier, recalls Laurie's "ra-ther" of <ptr target="#40">L40</ptr>.</interp>
+		<interp n="64">This one-word answer of Meg's, an intensifier, recalls her brother Laurie's "ra-ther" of <ptr target="#40">L40</ptr>.</interp>
 		</ab>
 	</p>
 	<p>
@@ -610,37 +713,62 @@
 			made them feel they were taking part in some drama. "Tell mother and
 			Miss Laura to come here at once.
 		</seg>
-		<interp n="65" type=""></interp>
+		<interp n="65">"They loved obeying her" is more likely Jose's thought, rather than Hans's.</interp>
 		</ab>
 	</p>
 	<p>
-		"Very good, Miss Jose."
+		<ab>
+		<seg n="66">
+			"Very good, Miss Jose."
+		</seg>
+		<interp n="66"></interp>
+		</ab>
 	</p>
 	<p>
-		She turned to Meg. "I want to hear what the piano sounds like, just
-		in case I'm asked to sing this afternoon. Let's try over 'This life is
-		Weary.'"
+		<ab>
+		<seg n="67">
+			She turned to Meg. "I want to hear what the piano sounds like, just
+			in case I'm asked to sing this afternoon. Let's try over 'This life is
+			Weary.'"
+		</seg>
+		<interp n="67"></interp>
+		</ab>
 	</p>
 	<p>
-		<emph>Pom!</emph> Ta-ta-ta <emph>Tee</emph>-ta! The piano burst out so passionately that
-		Jose's face changed. She clasped her hands. She looked mournfully and
-		enigmatically at her mother and Laura as they came in.
+		<ab>
+		<seg n="68">
+			<emph>Pom!</emph> Ta-ta-ta <emph>Tee</emph>-ta! The piano burst out so passionately that
+			Jose's face changed. She clasped her hands. She looked mournfully and
+			enigmatically at her mother and Laura as they came in.
+		</seg>
+		<interp n="68"></interp>
+		</ab>
 	</p>
 	<p>
-	<lg type="song">
-		<l>"This Life is <emph>Wee</emph>-ary,</l>
-		<l>A Tear—a Sigh.</l>
-		<l>A Love that <emph>Chan</emph>-ges,</l>
-		<l>This Life is Wee-ary,</l>
-		<l>A Tear—a Sigh.</l>
-		<l>A Love that <emph>Chan</emph>-ges,</l>
-		<l>And then... Good-bye!"</l>
-	</lg>
+	<ab>
+	<seg n="69">
+		<lg type="song">
+			<l>"This Life is <emph>Wee</emph>-ary,</l>
+			<l>A Tear—a Sigh.</l>
+			<l>A Love that <emph>Chan</emph>-ges,</l>
+			<l>This Life is Wee-ary,</l>
+			<l>A Tear—a Sigh.</l>
+			<l>A Love that <emph>Chan</emph>-ges,</l>
+			<l>And then... Good-bye!"</l>
+		</lg>
+	</seg>
+	<interp n="69"></interp>
+	</ab>
 	</p>
 	<p>
-		But at the word "Good-bye," and although the piano sounded more
-		desperate than ever, her face broke into a brilliant, dreadfully
-		unsympathetic smile.
+		<ab>
+		<seg n="70">
+			But at the word "Good-bye," and although the piano sounded more
+			desperate than ever, her face broke into a brilliant, dreadfully
+			unsympathetic smile.
+		</seg>
+		<interp n="70"></interp>
+		</ab>
 	</p>
 	<p>
 		"Aren't I in good voice, mummy?" she beamed.

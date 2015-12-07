@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
 
 <xsl:template match="/"> 
 	<html>
 		<head>
 			<link rel="stylesheet" href="garden-party.css" />
-			<!--<script async="async" defer="defer" src="embed.js"></script>-->
-			<script async="async" defer="defer" src="hypothesis.min.js"></script>
-			<script>window.hypothesisConfig=function(){return{showHighlights:true};</script>
 			<script src="jquery-2.1.4.min.js"></script>
-			<script>
-			$(document).ready(function(){
-			       <!--alert('loaded!'); -->
-			    $(".tag-item a").click(function(){
-			    	alert('heyo!');
-			    });
-			}); 
-			</script>
+			<script src="custom.js"></script>
 		</head>
 		<body>
 			<xsl:apply-templates/>
@@ -134,15 +124,18 @@
 
 <xsl:template match="interp">
 	<td class="interp">
-		<xsl:apply-templates select="@type | node()"/>
+		<xsl:apply-templates/>
 	</td>
 </xsl:template>
 
-<xsl:template match="@type">
+<xsl:template match="interp/desc">
 	<xsl:for-each select=".">
-	<span class="tag">
-		<xsl:value-of select="."/>
-	</span>
+		<span>
+			<xsl:attribute name="class">tag 
+				<xsl:value-of select="."/>
+			</xsl:attribute>
+			<xsl:value-of select="."/>
+		</span>
 	</xsl:for-each>
 </xsl:template> 
 
