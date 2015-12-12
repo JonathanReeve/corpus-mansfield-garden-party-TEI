@@ -34,7 +34,7 @@
 	<p>
 		<ab>
 			<seg n="1">And after all the weather was ideal.</seg>
-			<interp n="1">This sentence begins <emph>in medias res</emph>
+			<interp n="1">This sentence begins <emph>in medias res</emph>. "And" also begins sentences at <ptr target="#19">L19</ptr>, <ptr target="#20">L20</ptr>, <ptr target="#22">L22</ptr>, <ptr target="#28">L28</ptr>.   
 				<desc>interruptions</desc>
 				<desc>medias-res</desc>
 			</interp>
