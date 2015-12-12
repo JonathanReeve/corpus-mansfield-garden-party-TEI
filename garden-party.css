@@ -1,6 +1,10 @@
 /* Turning Metadata off for the moment */
 div#metadata { display: none; } 
 
+body { 
+	font-family: 'Slabo 27px', serif;
+} 
+
 a { 
 	color: #A33; 
 } 
@@ -37,10 +41,10 @@ span.tag:hover {
 	background-color: #F0A9A1;
 } 
 
-p:before { 
-	content: "¶"; 
+.pilcrow { 
 	position: relative;
 	right: 20px;
+	color: #888; 
 } 
 
 .metadata { 

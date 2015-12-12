@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
 
 <xsl:template match="/"> 
 	<html>
 		<head>
 			<link rel="stylesheet" href="garden-party.css" />
+			<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css' />
 			<script src="jquery-2.1.4.min.js"></script>
 			<script src="custom.js"></script>
 		</head>
@@ -80,6 +81,10 @@
 <xsl:template match="TEI/text/body">
 	<div id="textBody">
 		<table>
+			<tr>
+				<th>Text</th>
+				<th>Commentary</th>
+			</tr>
 			<xsl:apply-templates/>
 		</table>
 	</div> <!--End of Container-->
@@ -90,7 +95,7 @@
 </xsl:template>
 
 <xsl:template match="p">
-	<p class="textParagraph"><xsl:apply-templates/></p>
+	<span class="pilcrow">¶</span><xsl:apply-templates/>
 </xsl:template>
 
 <xsl:template match="lg">

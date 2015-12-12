@@ -27,14 +27,15 @@
 	</profileDesc>
 </teiHeader>
 <text>
-	<body> 
 	<head type="title">The Garden Party</head>
 	<head type="byline">by Katherine Mansfield</head>
+
+	<body> 
 
 	<p>
 		<ab>
 			<seg n="1">And after all the weather was ideal.</seg>
-			<interp n="1">This sentence begins <emph>in medias res</emph>. "And" also begins sentences at <ptr target="#19">L19</ptr>, <ptr target="#20">L20</ptr>, <ptr target="#22">L22</ptr>, <ptr target="#28">L28</ptr>.   
+			<interp n="1">This sentence begins <emph>in medias res</emph>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see Appendix I).
 				<desc>interruptions</desc>
 				<desc>medias-res</desc>
 			</interp>
@@ -43,7 +44,7 @@
 
 		<ab>
 			<seg n="2">They could not have had a more perfect day for a garden-party if they had ordered it.</seg>  
-			<interp n="2">This is the first instance of the adjective "perfect" which will appear several times in the story, highlighting an implicit hierarchy of weather and other conditions that will be challenged by the carter's death.
+			<interp n="2">This is the first instance of the adjective "perfect" which will appear several times in the story, highlighting an implicit valuation of weather and other conditions that will be challenged by the carter's death.
 				<desc>perfection</desc>
 			</interp>
 		</ab>
