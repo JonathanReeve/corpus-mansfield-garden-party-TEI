@@ -2,7 +2,14 @@
 div#metadata { display: none; } 
 
 body { 
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Merriweather', serif;
+	font-weight: 400; 
+	font-size: 1em; 
+	line-height: 1.4; 
+} 
+
+h1, h2 { 
+	text-align: center;
 } 
 
 a { 
@@ -55,5 +62,12 @@ td {
 	vertical-align: top; 
 	padding: 4px; 
 	width: 50%
+} 
+
+.button { 
+	background-color: blue; 
+	border: 1px solid black; 
+	padding: 5px; 
+	border-radius: 4px; 
 } 
 

@@ -5,7 +5,7 @@
 	<html>
 		<head>
 			<link rel="stylesheet" href="garden-party.css" />
-			<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css' />
+			<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css' />
 			<script src="jquery-2.1.4.min.js"></script>
 			<script src="custom.js"></script>
 		</head>
@@ -161,14 +161,8 @@
 	<h2><xsl:apply-templates/></h2>
 </xsl:template>
 
-<xsl:template match="said">
-	<xsl:apply-templates select="@* | node()"/>
+<xsl:template match="div[@type='header']">
+	INSERTHEADERHERE
 </xsl:template>
-
-<xsl:template match="@who">
-	<xsl:attribute name="class">
-		<xsl:value-of select="substring(., 2)"/>
-	</xsl:attribute>
-</xsl:template> 
 
 </xsl:stylesheet> 

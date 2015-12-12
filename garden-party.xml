@@ -27,6 +27,10 @@
 	</profileDesc>
 </teiHeader>
 <text>
+	
+	<div type="header">
+	</div> 
+
 	<head type="title">The Garden Party</head>
 	<head type="byline">by Katherine Mansfield</head>
 
@@ -35,7 +39,7 @@
 	<p>
 		<ab>
 			<seg n="1">And after all the weather was ideal.</seg>
-			<interp n="1">This sentence begins <emph>in medias res</emph>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see Appendix I).
+			<interp n="1">This sentence begins <emph>in medias res</emph>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see Appendix B).
 				<desc>interruptions</desc>
 				<desc>medias-res</desc>
 			</interp>
