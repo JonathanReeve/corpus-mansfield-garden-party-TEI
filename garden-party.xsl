@@ -34,6 +34,13 @@
 	<tr class="interp"><xsl:apply-templates/></tr>
 </xsl:template>
 
+<!-- Metadata --> 
+<xsl:template match="TEI/teiHeader/fileDesc/sourceDesc">
+	<div id="sourceDesc" class="metadata">
+		<xsl:apply-templates/>
+	</div> <!--end of sourceDesc-->
+</xsl:template>
+
 <!-- Text Segments --> 
 <xsl:template match="seg">
 	<td class="lexeme">
