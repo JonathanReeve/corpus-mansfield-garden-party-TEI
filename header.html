@@ -1,7 +1,17 @@
-<h1 id="how-to-read-this-interactive-non-linear-critical-edition">How to Read this Interactive, Non-Linear Critical Edition</h1>
+<h1 id="literary-criticism">Literary Criticism</h1>
+<div class="figure">
+<img src="images/narrative-criticism.png" alt="Narrative Criticism" />
+<p class="caption">Narrative Criticism</p>
+</div>
+<h1 id="textual-notes">Textual Notes</h1>
+<p>This edition is derived from <a href="https://github.com/GITenberg/The-Garden-Party-and-Other-Stories_1429">the GITenberg edition of <em>The Garden Party and Other Stories</em></a>. The text was marked up using the Extensible Markup Language (XML) format of the <a href="http://www.tei-c.org/index.xml">Text Encoding Initiative</a> (TEI). This format, the standard markup language for archival literary projects, is a semantic markup language—unlike markup languages like HTML 4.0, which describe how a text should <em>look</em>, i.e. <code>&lt;i&gt;The Garden Party&lt;/i&gt;</code>, TEI XML describes what the text <em>is</em>, i.e. <code>&lt;title&gt;The Garden Party&lt;/title&gt;</code>. This allows text segments to be selected based on their literary attributes rather than their formatting.</p>
+<p><a href="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/header.md">The TEI text</a> is transformed to HTML using <code>xsltproc</code> and <a href="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/header.md">an XSL stylesheet</a>, and combined with this introductory text, which is transformed from markdown into HTML using <code>pandoc</code>. The files are combined using <code>sed</code>, and the compilation process automated using <a href="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/Makefile">a Makefile</a> written for <code>GNU make</code>. <a href="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/header.md">A short jQuery script</a> handles the interactive tag behavior.</p>
+<p>Since the text has been broken into segments, pilcrow marks (¶) have been used to denote the beginnings of paragraphs as they appeared in the original text.</p>
+<p>This edition has been made using exclusively free and open-source software. This textual commentary and the source code for this project is released under the GNU Public License v3, the full text of which is available in <a href="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/LICENSE">the included license</a>.</p>
+<h1 id="instructions">Instructions</h1>
 <ol style="list-style-type: decimal">
 <li>Read the full text of the story.</li>
 <li>Find a passage that interests you, and read the commentary for that passage.</li>
-<li>Click on a tag in that commentary that interests you. Notice that you're taken to another annotation that has this tag.</li>
-<li>Continue to follow the tag you've chosen until you've read all annotations with that tag. Alternatively, click on another tag, and follow its thread.</li>
+<li>Click on a tag in that commentary that interests you. Notice that you’re taken to another annotation that has this tag.</li>
+<li>Continue to follow the tag you’ve chosen until you’ve read all annotations with that tag. Alternatively, click on another tag, and follow its thread.</li>
 </ol>

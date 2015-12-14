@@ -35,8 +35,8 @@
 </xsl:template>
 
 <!-- Metadata --> 
-<xsl:template match="TEI/teiHeader/fileDesc/sourceDesc">
-	<div id="sourceDesc" class="metadata">
+<xsl:template match="TEI/teiHeader">
+	<div class="metadata">
 		<xsl:apply-templates/>
 	</div> <!--end of sourceDesc-->
 </xsl:template>
@@ -117,9 +117,15 @@
 	<span class="emph"><xsl:apply-templates/></span>
 </xsl:template>
 
+<xsl:template match="foreign">
+	<span class="emph"><xsl:apply-templates/></span>
+</xsl:template>
+
 <!-- This inserts a placeholder which sed will swap out with the contents of header.html. -->
 <xsl:template match="div[@type='header']">
-	INSERTHEADERHERE
+	<div class="header-area">
+		INSERTHEADERHERE
+	</div> 
 </xsl:template>
 
 </xsl:stylesheet> 

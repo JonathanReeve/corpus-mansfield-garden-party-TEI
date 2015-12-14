@@ -10,6 +10,19 @@ body {
 	margin: 0 auto; 
 } 
 
+img { 
+	max-width: 100%; 
+} 
+
+.figure .caption { 
+	text-align: center; 
+} 
+
+.header-area { 
+	margin-left: 15%; 
+	margin-right: 15%; 
+} 
+
 h1, h2 { 
 	text-align: center;
 } 
@@ -18,14 +31,16 @@ a {
 	color: #A33; 
 } 
 
+p.song { 
+	margin: 0 3em; 
+	display: inline-block; 
+	vertical-align: top;
+} 
+
 sup.lexeme-id { 
 	color: #A33; 
 	font-size: 0.7em; 
 	margin-right: 2px; 
-} 
-
-span.lexeme:hover { 
-	color: #A33; 
 } 
 
 span.emph { 
@@ -59,10 +74,14 @@ td {
 	width: 50%; 
 } 
 
-.button { 
-	background-color: blue; 
-	border: 1px solid black; 
-	padding: 5px; 
-	border-radius: 4px; 
-} 
+/* Mobile Views */ 
+@media screen and (max-width: 769px) {
 
+	body { 
+		width: 90%; 
+	} 
+	.header-area { 
+		margin-left: 10%; 
+		margin-right: 10%; 
+	} 
+} 

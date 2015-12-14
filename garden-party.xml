@@ -39,7 +39,7 @@
 
 			<ab>
 				<seg n="1" type="startPara">And after all the weather was ideal.</seg>
-				<interp n="1">This sentence begins <emph>in medias res</emph>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see Appendix B).
+				<interp n="1">This sentence begins <foreign>in medias res</foreign>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see these calculations in <ptr target="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/ands.ipynb">the "and" notebook</ptr>).
 					<desc>interruptions</desc>
 					<desc>medias-res</desc>
 				</interp>
@@ -48,31 +48,36 @@
 
 			<ab>
 				<seg n="2">They could not have had a more perfect day for a garden-party if they had ordered it.</seg>  
-				<interp n="2">This is the first instance of the adjective "perfect" which will appear several times in the story, highlighting an implicit valuation of weather and other conditions that will be challenged by the carter's death.
+				<interp n="2">This is the first instance of the adjective "perfect" which will appear three times in the story, highlighting an implicit valuation of weather and other conditions that will be challenged by the carter's death. The absurd notion of ordering weather conditions, while of course not meant unironically, still suggests the imagined reach of the wealth depicted here. Mrs. Sheridan might almost believe, this line seems to say,that the weather conditions themselves might be controlled for a certain price. The implication, then, is that death, another force of nature, might also be controlled, so that it is not allowed to interfere with the perfection of the garden party.
 					<desc>perfection</desc>
+					<desc>class</desc>
 				</interp>
 			</ab>
 
 			<ab>
 				<seg n="3">Windless, warm, the sky without a cloud. Only the blue was veiled with a haze of light gold, as it is sometimes in early summer.</seg>
-				<interp n="3">The day is "windless"; this contrasts with <ptr target="#48">L48</ptr> where "little faint winds were playing chase."
+				<interp n="3">The day is "windless"; this contrasts with <ptr target="#48">L48</ptr> where "little faint winds were playing chase." Since gold is usually a sign of wealth, this color word helps to paint the upper class setting of the story better than a word like "yellow." The daisies on Laura's hat in <ptr target="#137">L137</ptr> are also gold.
 					<desc>wind</desc>
 					<desc>colors</desc>
+					<desc>blue</desc>
 					<desc>light</desc>
+					<desc>silver-gold</desc>
+					<desc>class</desc>
 				</interp>
 			</ab>
 
 			<ab>
 				<seg n="4">The gardener had been up since dawn, mowing the lawns and sweeping them, until the grass and the dark flat rosettes where the daisy plants had been seemed to shine.</seg>
-				<interp n="4">Rosettes, daisies.
+				<interp n="4">Like the cook, the gardener is not named, but takes the name of his occupation (see also <ptr target="#75">L75</ptr>). Since "rosette" in this sense is a flower-shaped area, we see that there has been a transformation from the living flowers of the daisies to the dead ("dark") patch of grass that bears only the shadow of a flower. The etymology of "rosette" further suggests a metaphorical transformation from daisies (perhaps associated with life in the symbolic economy of the hat in <ptr target="#137">L137</ptr>) to roses, "the only flowers that impress people," according to <ptr target="#5">L5</ptr>. 
 					<desc>flora</desc>
+					<desc>green</desc>
 				</interp>
 			</ab>
 
 			<ab>
 				<seg n="5">As for the roses, you could not help feeling they understood that roses are the only flowers that impress people at garden-parties; the only flowers that everybody is certain of knowing.</seg>
 				<interp n="5">
-					The roses, as well as the workers from <ptr target="#15">L15</ptr>, are "impressive."
+					The roses, like workers from <ptr target="#15">L15</ptr>, are "impressive."
 					<desc>flora</desc>
 					<desc>impressions</desc>
 				</interp>
@@ -80,7 +85,7 @@
 
 			<ab>
 				<seg n="6">Hundreds, yes, literally hundreds, had come out in a single night; the green bushes bowed down as though they had been visited by archangels.</seg>
-				<interp n="6">The first instance of the term "green."
+				<interp n="6">This is the first instance of the word "green," a major motif in the story. As in <ptr target="#2">L2</ptr>, the coincidence of the mass rose blooming with the garden party continues the suggestion that even nature conspires to make the garden party "perfect." This is one of the factors that makes the carter's death all the more devastating.
 					<desc>colors</desc>
 					<desc>green</desc>
 				</interp>
@@ -90,7 +95,7 @@
 
 			<ab>
 				<seg n="7" type="startPara">Breakfast was not yet over before the men came to put up the marquee.</seg>
-				<interp n="7">This continues the theme of interruptions and <emph>medias res</emph> begun in #1.
+				<interp n="7">Breakfast is interrupted; this continues the theme of interruptions begun in <ptr target="#1">L1</ptr>. We are never told what text or images the marquee shows, or whether it can be seen from the "mean cottages" at the bottom of the hill. If it is visible from these cottages, this may contribute to Laura's anxiety around <ptr target="#118">L118</ptr>, especially since Laura is acutely aware of the position of the marquee, helping to decide where to place it in <ptr target="#15">L15</ptr>-<ptr target="#29">29</ptr>.
 					<desc>interruptions</desc>
 				</interp>
 			</ab>
@@ -106,24 +111,32 @@
 					everything to you children this year. Forget I am your mother. Treat me
 					as an honoured guest."
 				</seg>
-				<interp n="10">
-					In a carnivalesque inversion of social status, Mrs. Sheridan releases her authority for the duration of the party. This comes to an apex by <ptr target="#76">L76</ptr>, when she "echoes" Sadie's question "dreamily." However, this inversion is not to last very long, since she becomes much more authoritative, and much less dreamy, by <ptr target="#78">L78</ptr>.
+				<interp n="9">
+					In a carnivalesque inversion of generational status, Mrs. Sheridan releases her authority for the duration of the party. This climaxes in <ptr target="#76">L76</ptr>, when she "echoes" Sadie's question "dreamily." However, this inversion is not to last very long, since she becomes much more authoritative, and much less dreamy, by <ptr target="#78">L78</ptr>.
 					<desc>coming-of-age</desc>
 					<desc>carnival</desc>
 					<desc>inversions</desc>
 				</interp>
 			</ab>
 
+			<ab>
+				<seg n="10" type="startPara">
+					But Meg could not possibly go and supervise the men. 
+				</seg>
+				<interp n="10">
+					This is the first of eighteen sentences in the story that begins with "but." These sentences comprise roughly three percent of the total sentences in the story. 
+				</interp> 
+			</ab>
 
 			<ab>
 				<seg n="11" type="startPara">
-					But Meg could not possibly go and supervise the men. She had washed
+					She had washed
 					her hair before breakfast, and she sat drinking her coffee in a green
 					turban, with a dark wet curl stamped on each cheek. Jose, the butterfly,
 					always came down in a silk petticoat and a kimono jacket.
 				</seg>
 				<interp n="11">
-					Laura's sisters Meg and Jose are introduced here, although Laura's brother Laurie won't be introduced until <ptr target="#38">L38</ptr>. Antony Alpers suggests that the names Meg, Jose, and Laurie may be an homage to characters with those names in Louisa May Alcott's novel <emph>Little Women</emph> (572). Meg and Jose are revealed to be dressed fashionably, both in traditional apparel of distant countries. Meg's "green turban" is either a literal turban, a fashionable adaptation of the middle eastern headdress (green turbans were traditionally worn by male descendants of Mohammad), or a towel or other cloth wrapped in a similar way, as Mrs. Sheridan seems to suggest in <ptr target="#78">L78</ptr>, when she tells Meg to take the "wet thing" off of her head. 
+					Laura's sisters Meg and Jose are introduced here, although Laura's brother Laurie won't be introduced until <ptr target="#38">L38</ptr>. Antony Alpers suggests that the names Meg, Jose, and Laurie may be an homage to characters with those names in Louisa May Alcott's novel <emph>Little Women</emph> (572). Meg and Jose are revealed to be dressed fashionably, both in traditional apparel of distant countries. Meg's "green turban" is either a literal turban, a fashionable adaptation of the middle eastern headdress, or a towel or other cloth wrapped in a similar way, as Mrs. Sheridan seems to suggest in <ptr target="#78">L78</ptr>, when she tells Meg to take the "wet thing" off of her head. The word "turban" may be etymologically related to "tulip" (_OED_, "turban"). That this is green enhances this botanical reference, and adds another image of floral blossoming that resonates with the theme of sexual awakening.  
 					<desc>orientalism</desc>
 					<desc>colors</desc>
 					<desc>green</desc>
@@ -156,6 +169,7 @@
 					better than anybody else.
 				</seg>
 				<interp n="14">
+					As "delicious" is typically used to describe the taste of food, its use here to describe the benefits of eating outdoors is a parapraxis of Laura's thought.
 					<desc>food</desc>
 				</interp>
 			</ab>
@@ -168,6 +182,7 @@
 					tool-bags slung on their backs. They looked impressive. 
 				</seg>
 				<interp n="15">
+					These workers are "impressive" to Laura, possibly for their physical strength (carrying "big tool-bags") and their state of undress. The roses of <ptr target="#15">L15</ptr> are also described as "impressive." 
 					<desc>impressions</desc>
 					<desc>desire</desc>
 				</interp>
@@ -177,7 +192,7 @@
 					Laura wished now that she had not got the bread-and-butter, but there was nowhere to put it, and she couldn't possibly throw it away. 
 					She blushed and tried to look severe and even a little bit short-sighted as she came up to them.
 				</seg>
-				<interp n="16">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>.
+				<interp n="16">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>. Her blush might be used here to signal Laura's inability to reconcile her excitement for the men with her social position as their director and deputy employer. She might also feel embarrassed at her liminal state--interrupted in the middle of breakfast--a feeling which she tries to counterbalance by looking "severe."
 					<desc>butterflies</desc>
 				</interp>
 			</ab>
@@ -188,7 +203,12 @@
 					"Good morning," she said, copying her mother's voice. 
 					But that sounded so fearfully affected that she was ashamed, and stammered like a little girl, "Oh—er—have you come—is it about the marquee?"
 				</seg>
-				<interp n="17"></interp>
+				<interp n="17">
+					Laura tries on a metaphorical adult hat in imitating her mother. (She will literally wear an adult's hat in <ptr target="#133">L133</ptr>.) Her stammering is another instance of interrupted speech.
+					<!-- use Anxiety reading? --> 
+					<desc>coming-of-age</desc>
+					<desc>interruptions</desc>
+				</interp>
 			</ab>
 
 
@@ -196,7 +216,7 @@
 				<seg n="18" type="startPara">
 					"That's right, miss," said the tallest of the men, a lanky, freckled fellow, and he shifted his tool-bag, knocked back his straw hat and smiled down at her. "That's about it."
 				</seg>
-				<interp n="18">The man's are a sign that he has spent time outdoors, and his straw hat--practical for the summer, is most likely a sign of his social class.
+				<interp n="18">The man's freckles are a sign that he has spent time outdoors, and his straw hat, inexpensive and practical for the summer, is most likely a sign of his social class. That he smiles "down" on her doesn't merely suggest benign age-based condescension, but is a trigonometric indication of how close they must be standing for this angle to be significant. If we conservatively estimate that their height difference is one foot, and that looking "down" implies a downward angle of at least 20 degrees, then they're standing only 2.75 feet apart. If that angle is more pronounced, at 30 degrees, then they must be standing a mere 1.73 feet apart.
 					<desc>class</desc>
 				</interp>
 			</ab>
@@ -209,10 +229,12 @@
 					they were smiling too. "Cheer up, we won't bite," their smile seemed
 					to say. 
 				</seg>
-				<interp n="19">The details Laura notices in the man suggest her desirous gaze toward him. Unlike the blue of the sky, which in <ptr target="#3">L3</ptr> is "veiled with a haze of gold," 
+				<interp n="19">The details Laura notices in the man suggest her desirous gaze toward him. The emphasis she gives them, denoted by the exclamation point, further supports this view. The blue of the man's eyes is unlike the blue of the sky, which in <ptr target="#3">L3</ptr> is "veiled with a haze of gold," 
 					<desc>sexuality</desc>
 					<desc>eyes</desc>
 					<desc>desire</desc>
+					<desc>colors</desc>
+					<desc>blue</desc>
 				</interp>
 			</ab>
 
@@ -221,7 +243,7 @@
 					How very nice workmen were! And what a beautiful morning! She
 					mustn't mention the morning; she must be business-like. The marquee.
 				</seg>
-				<interp n="20">The final sentence here contains just two words, "the marquee." They are Laura's reminder to herself to stay focused on her task.
+				<interp n="20">Like Laura's blush in <ptr target="#16">L16</ptr> seems to indicate, she is caught between her childlike desires to celebrate the morning and her adult role as a businessperson. The final sentence here contains just two words, "the marquee." They are Laura's reminder to herself to stay focused on her task (see also "the telephone" in <ptr target="#42">L42</ptr>). 
 					<desc>reminders</desc>
 				</interp>
 			</ab>
@@ -256,6 +278,7 @@
 					follow me."
 				</seg>
 				<interp n="22">
+					Laura's attempted directorship hasn't succeeded, despite her efforts to look "severe" (<ptr target="#16">L16</ptr>). 
 					<desc>eyes</desc>
 				</interp>
 			</ab>
@@ -267,7 +290,7 @@
 					respectful of a workman to talk to her of bangs slap in the eye. But she
 					did quite follow him.
 				</seg>
-				<interp n="23">The onomatopoeic monosyllables of "bang" and "slap" may sound crude to Laura for the level of discourse suggested by their Anglo-Saxon etymology, and by the unnecessary violence they lend to the visual apprehension of the marquee.
+				<interp n="23">The onomatopoeic monosyllables of "bang" and "slap" may sound crude to Laura for the level of discourse suggested by their Anglo-Saxon etymology, and by the unnecessary violence they lend to the visual apprehension of the marquee. It is not that the workman isn't aware of more a more polite or Latinate synonym for "bang slap in the eye," since he uses it ("conspicuous") earlier in the lexia. Thus, his familiarity is signaled as an intentional and perhaps flirtatious choice. Laura recognizes this, although she doesn't find it unwelcome.
 					<desc>desire</desc>
 					<desc>eyes</desc>
 					<desc>onomatopoeia</desc>
@@ -281,8 +304,7 @@
 					be in one corner."
 				</seg>
 				<interp n="24">
-					The tennis court is probably green, continuing the theme of greenness that began with <ptr target="#6">L6</ptr>. 
-					<desc>green</desc>
+					Since the tennis court is compared to a "pond" in <ptr target="#140">L140</ptr>, we can assume that it's green. This continues the theme of greenness that began with <ptr target="#6">L6</ptr>. 				             <desc>green</desc>
 				</interp>
 			</ab>
 
@@ -316,7 +338,7 @@
 					That'll do fine."
 				</seg>
 				<interp n="27">
-					The workmen refer to them as "trees," but Laura prefers the more specific appelation given in <ptr target="#28">L28</ptr>.
+					The workmen refer to them as "trees," but Laura prefers the more specific appellation given in <ptr target="#28">L28</ptr>.
 					<desc>flora</desc>
 				</interp>
 			</ab>
@@ -344,7 +366,7 @@
 					They must. Already the men had shouldered their staves and were making
 					for the place. 
 				</seg>
-				<interp n="29"></interp>
+				<interp n="29">The metonymy of "shouldered" (a body part instead of the more abstract verbs "lifted" or "carried") suggests Laura's attention to the men's shoulders.</interp>
 			</ab>
 
 			<ab>
@@ -396,8 +418,7 @@
 				<seg n="33">
 					Well, for her part, she didn't feel them. 
 				</seg>
-				<interp n="33">Laura feels that the class barriers don't apply to her. This could be read as evidence of the naturalizing function of this ideology: that it makes the class barriers seem invisible. 
-
+				<interp n="33">Laura feels that the class barriers don't apply to her. This could be read as evidence of the naturalizing function of this ideology: that it makes the class barriers seem invisible or inapplicable. 
 					<desc>class</desc>
 				</interp>
 			</ab>
@@ -407,7 +428,7 @@
 					Not a bit, not an atom... 
 				</seg>
 				<interp n="34">
-					The ellipsis at the end of this line is the first of several to appear in the story. Laura's interrupted throught from <ptr target="#32">L32</ptr> is literally manifested here in the trailing off suggested by the ellipsis. Since the series that begins "not a" features progressively smaller units, perhaps this trailing off can be partially explained because, in the scientific sense at least, an atom may not be subdivided and maitain its elemental properties.
+					The ellipsis at the end of this line is the first of several to appear in the story. Laura's interrupted thought from <ptr target="#32">L32</ptr> is literally manifested here in the trailing off suggested by the ellipsis. Since the series that begins "not a" features progressively smaller units, perhaps this trailing off can be partially explained because, in the scientific sense at least, an atom may not be subdivided and maintain its elemental properties.
 					<desc>interruptions</desc>
 				</interp>
 			</ab>
@@ -418,8 +439,10 @@
 					Some one whistled, some one sang out, "Are you right
 					there, matey?" "Matey!" The friendliness of it, the—the—
 				</seg>
-				<interp n="35">Laura's thought interruptions reach an apex here, trailing off even mid-clause.
+				<interp n="35">Laura's thought interruptions intensify here, trailing off even mid-clause.
 					<desc>interruptions</desc>
+					<desc>onomatopoeia</desc>
+					<desc>sound</desc>
 				</interp>
 			</ab>
 
@@ -430,7 +453,9 @@
 					bread-and-butter as she stared at the little drawing. She felt just like
 					a work-girl.
 				</seg>
-				<interp n="36"></interp>
+				<interp n="36">The "little drawing" here is probably the workman's drawing of "something that was to be looped up or left to hang" from <ptr target="#32">L32</ptr>. Laura is trying to ingratiate herself with the workmen by showing that she is comfortable around them, and taking an interest in their work. Laura is also trying to "prove how happy she was," that is, to force an outward appearance of happiness which her experience, presumably, does not reflect.
+					<desc>happiness</desc>
+				</interp>
 			</ab>
 
 
@@ -449,7 +474,8 @@
 					across the veranda, and into the porch. In the hall her father and
 					Laurie were brushing their hats ready to go to the office.
 				</seg>
-				<interp n="38"></interp>
+				<interp n="38">This sequence of prepositional phrases gives an idea of the size of the estate.
+				</interp>
 			</ab>
 
 
@@ -458,7 +484,7 @@
 					"I say, Laura," said Laurie very fast, "you might just give a squiz at
 					my coat before this afternoon. See if it wants pressing."
 				</seg>
-				<interp n="39">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang. The maintenance of their hats and their office destination shows them to be white-collar workers, but not so rich that they don't have to brush their hats themselves.</interp>
+				<interp n="39">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang ("squiz" roughly means "look"). Their office destination and the care they give to their hats shows them to be white-collar workers, but not ones so rich that they don't have to brush their hats themselves.</interp>
 			</ab>
 
 
@@ -468,8 +494,9 @@
 					Laurie and gave him a small, quick squeeze. "Oh, I do love parties,
 					don't you?" gasped Laura.
 				</seg>
-				<interp n="40">Laura's syntax with her brother asks for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?".
+				<interp n="40">Laura's syntactic construction asks her brother for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?".
 					<desc>inversions</desc>
+					<desc>touch</desc>
 				</interp>
 			</ab>
 
@@ -479,7 +506,9 @@
 					"Ra-ther," said Laurie's warm, boyish voice, and he squeezed his sister
 					too, and gave her a gentle push. "Dash off to the telephone, old girl."
 				</seg>
-				<interp n="41"></interp>
+				<interp n="41">
+					<desc>touch</desc>
+				</interp>
 			</ab>
 
 
@@ -488,7 +517,7 @@
 					The telephone. 
 				</seg>
 				<interp n="42">
-					The two-word sentence "the telephone" parallels another two-word sentence Laura thinks in <ptr target="#20">L20</ptr>: "the marquee." Here, Laura is distracted, and reminds herself of what she is supposed to be doing.
+					The two-word sentence "the telephone" recalls another two-word sentence Laura thinks in <ptr target="#20">L20</ptr>: "the marquee." Here, Laura is distracted, and reminds herself of what she is supposed to be doing.
 					<desc>reminders</desc>
 				</interp>
 			</ab>
@@ -501,7 +530,7 @@
 					should. One moment—hold the line. Mother's calling." And Laura sat
 					back. "What, mother? Can't hear."
 				</seg>
-				<interp n="43">Laura doesn't answer the phone "hello?", but rather "yes, yes." We only hear one half of this telephone conversation, and so it appears fragmented. It is as if Laura's speech is interrupted by the pace of the conversation.
+				<interp n="43">Laura doesn't answer the phone "hello?", but rather "yes, yes." We only hear one half of this telephone conversation, and so it appears fragmented--it is as if Laura's speech is interrupted by the pace of the conversation. Kitty might be inviting herself to tea afterwards, if Laura says that only "a very scratch meal" will remain by then, but since Laura takes the leftovers to the carter's house around 161, there might not be even these sandwich crusts remaining if Kitty comes too late.
 					<desc>interruptions</desc>
 					<desc>perfection</desc>
 				</interp>
@@ -576,7 +605,7 @@
 					Darling little spots. Especially the one on the inkpot lid. It was quite
 					warm. A warm little silver star. She could have kissed it.
 				</seg>
-				<interp n="49">This sensory attention to natural details parallels that of the workman who smells the lavender in <ptr target="#30">L30</ptr>. Laura's affection for the sun spot marks her as one for whom desires to kiss might be mounting. The description of the sun spot as "silver," suggests that not only the photograph frame, but also the inkpot lid might be made of silver. In <ptr target="#116">L116</ptr>, Jose imagines the smoke from the house as "silver." 
+				<interp n="49">This sensory attention to natural details parallels that of the workman who smells the lavender in <ptr target="#30">L30</ptr>. Laura's affection for the sun spot shows her desire to kiss. The description of the sun spot as "silver" suggests that not only the photograph frame, but also the inkpot lid might be made of silver. In <ptr target="#116">L116</ptr>, Jose imagines the smoke from the house as "silver." 
 					<desc>play</desc>
 					<desc>light</desc>
 					<desc>silver-gold</desc>
@@ -647,7 +676,9 @@
 					"It's some mistake," she said faintly. "Nobody ever ordered so many.
 					Sadie, go and find mother."
 				</seg>
-				<interp n="55"></interp>
+				<interp n="55">
+					The almost limitless power of "ordering," in the hands of the wealthy, is that which <ptr target="#2">L2</ptr> seems to suggest could order even weather conditions.
+				</interp>
 			</ab>
 
 
@@ -666,7 +697,9 @@
 					I saw them in the window. And I suddenly thought for once in my life I
 					shall have enough canna lilies. The garden-party will be a good excuse."
 				</seg>
-				<interp n="57"></interp>
+				<interp n="57">
+					<desc>touch</desc>
+				</interp>
 			</ab>
 
 
@@ -677,7 +710,10 @@
 					her arm round her mother's neck and gently, very gently, she bit her
 					mother's ear.
 				</seg>
-				<interp n="58"></interp>
+				<interp n="58">
+					This playful gesture expresses Laura's simultaneous affection for and annoyance toward her mother. 
+					<desc>touch</desc>
+				</interp>
 			</ab>
 
 
@@ -786,7 +822,7 @@
 					enigmatically at her mother and Laura as they came in.
 				</seg>
 				<interp n="69">
-					Because we're hearing Jose's thoughts now, it is the piano, and not its player Meg, that is "passionate." Jose's "enigmatic" mournfulness is probably her acting out the part of the mourner to fit the subject of the sad song to follow. The insincerity of this mournfulness is apparrent, and sets the stage for Jose's indifference to the carter's death, which climaxes in <ptr target="#119">L119</ptr>. This nearly mocking mourning contrasts sharply with the literally mournful woman in <ptr target="#185">L185</ptr>.
+					Because we're hearing Jose's thoughts now, it is the piano, and not its player Meg, that is "passionate." Jose's "enigmatic" mournfulness is probably her acting out the part of the mourner to fit the subject of the sad song to follow. The insincerity of this mournfulness is apparent, and sets the stage for Jose's indifference to the carter's death, which climaxes in <ptr target="#119">L119</ptr>. This nearly mocking mourning contrasts sharply with the literally mournful woman in <ptr target="#185">L185</ptr>.
 					<desc>death</desc>
 					<desc>mourning</desc>
 					<desc>sound</desc>
@@ -832,7 +868,7 @@
 					"Aren't I in good voice, mummy?" she beamed.
 				</seg>
 				<interp n="72">
-					We see that Jose's motivations for singing are more concerned with her vanity than with the pleasure of singing, or of entertaining others.
+					We see that Jose's motivations for singing are more concerned with her vanity than with the pleasure of singing or of entertaining others.
 				</interp>
 			</ab>
 
@@ -915,7 +951,7 @@
 					into the kitchen, will you? I'm terrified of her this morning."
 				</seg>
 				<interp n="78">
-					Mrs. Sheridan orders her children around with an authority that is a decided departure from her attitude in <ptr target="#9">L9</ptr>. "The names," as Greenblatt et al. explain, are likely "the names of the sandwich fillings to be written on each flag" (2649). She has written them "on the back of an envelope"; the workman in <ptr target="#32">L32</ptr> also draws something on the back of an envelope. It is possible that this is the same envelope, stolen by one of the girls as Mrs. Sheridan suspects in <ptr target="#80">L80</ptr>, used by one of the workmen as scrap paper, and replaced behind the dining room clock, where it is found in <ptr target="#79">L79</ptr>. 
+					Mrs. Sheridan orders her children around with an authority that is a decided departure from her attitude in <ptr target="#9">L9</ptr>. "The names," as Greenblatt et al. explain, are likely "the names of the sandwich fillings to be written on each flag" (2649). She has written them "on the back of an envelope"; the workman in <ptr target="#32">L32</ptr> also draws something on the back of an envelope. Could this be the same envelope, stolen by one of the girls as Mrs. Sheridan suspects in <ptr target="#80">L80</ptr>, used by one of the workmen as scrap paper, and replaced behind the dining room clock, where it is found in <ptr target="#79">L79</ptr>? 
 					<desc>food</desc>
 					<desc>envelope</desc>
 				</interp>
@@ -999,7 +1035,7 @@
 					found Jose there pacifying the cook, who did not look at all terrifying.
 				</seg>
 				<interp n="85">
-					Mrs. Sheridan's view of the cook as "terrifying" is not validated here. 
+					Mrs. Sheridan's view of the cook as "terrifying" is not validated here, possibly because Mrs. Sheridan's relationship with the cook is somehow tainted by her overbearing authority. 
 				</interp>
 			</ab>
 
@@ -1078,6 +1114,8 @@
 					Very. Cook began arranging them, shaking off the extra icing sugar.
 				</seg>
 				<interp n="93">
+					Laura and Jose are torn between their desire for these cream puffs and their "grown-up" sensibilities that tell them they shouldn't care too much about cream puffs. This is analogous to Laura's desire for the workmen--she knows that she is of a different class from them, yet she couldn't help but finding them attractive.
+					<desc>food</desc>
 					<desc>coming-of-age</desc>
 				</interp>
 			</ab>
@@ -1108,6 +1146,7 @@
 					won't know."
 				</seg>
 				<interp n="96">
+					Cook knows that the girls' comments about the cream puffs speak to a desire for them, so she allows them to eat some.
 				</interp>
 			</ab>
 
@@ -1120,7 +1159,7 @@
 					from whipped cream.
 				</seg>
 				<interp n="97">
-					The girls' sensual enjoyment of these cream puffs parallels the workman's earlier (<ptr target="#30">L30</ptr>) enjoyment of the scent of lavender.  
+					The impossibility here is the contradiction between the girls' desire for these cream puffs and their knowledge that this is socially inappropriate. The girls' sensual enjoyment of these cream puffs parallels the workman's earlier (<ptr target="#30">L30</ptr>) enjoyment of the scent of lavender.  
 					<desc>fingers</desc>
 					<desc>sexuality</desc>
 					<desc>food</desc>
@@ -1135,7 +1174,7 @@
 					awfully nice men."
 				</seg>
 				<interp n="98">
-					The fact that this urge of Laura's immediately follows her sensual enjoyment of the cream puffs in <ptr target="#97">L97</ptr> supports a reading of this lexia and L97 as sexually suggestive. 
+					The fact that this urge of Laura's immediately follows her sensual enjoyment of the cream puffs in <ptr target="#97">L97</ptr> supports a reading of this lexia and <ptr target="#97">L97</ptr> as sexually suggestive. 
 				</interp>
 			</ab>
 
@@ -1145,7 +1184,7 @@
 					But the back door was blocked by cook, Sadie, Godber's man and Hans.
 				</seg>
 				<interp n="99">
-					The servants are all gathered by the back door, forming a physical class-based boundary that prevents Laura from leaving to see the men. 
+					The servants are all gathered by the back door, forming a physical class-based boundary that prevents Laura from leaving to see the workmen. 
 					<desc>servants</desc>
 				</interp>
 			</ab>
@@ -1170,7 +1209,7 @@
 					enjoying himself; it was his story.
 				</seg>
 				<interp n="101">
-					None of these reactions to the carter's death are at all as mournful as Jose's face in <ptr target="#61">L69</ptr>. Godber's man is amused, Hans is confused, Sadie seems to be in pain, and cook makes farm noises. 
+					None of these reactions to the carter's death are at all as mournful as Jose's face in <ptr target="#61">L69</ptr>. Godber's man is amused, Hans is confused, Sadie seems to be in pain, and Cook makes farm noises. 
 					<desc>death</desc>
 					<desc>animals</desc>
 				</interp>
@@ -1226,6 +1265,7 @@
 					Killed."
 				</seg>
 				<interp n="106">
+					The cause of this death, arguably, is the meeting of an old technology (a horse) with a new technology (a traction-engine).
 					<desc>death</desc>
 				</interp>
 			</ab>
@@ -1283,7 +1323,6 @@
 					"Stop the garden-party, of course." Why did Jose pretend?
 				</seg>
 				<interp n="111">
-					It is Laura that wonders why Jose pretended not to understand; it is rendered here in free indirect discourse.
 				</interp>
 			</ab>
 
@@ -1295,7 +1334,7 @@
 					expects us to. Don't be so extravagant."
 				</seg>
 				<interp n="112">
-					The irony is that the party, not its cancellation, would be extravagant. 
+					The irony is that the party, not its would-be cancellation, is extravagant. 
 					<desc>absurdity</desc>
 				</interp>
 			</ab>
@@ -1318,7 +1357,7 @@
 					A broad road ran between. 
 				</seg>
 				<interp n="114">
-					Now we are hearing Jose's thoughts. as suggested by the use of the term "extravagant" (see <ptr target="#112">L112</ptr>). She thinks about the geography of the region, which is almost medieval with its castle at the top of the hill and its lower-class houses "at the very bottom." Like the green baize doors in <ptr target="#46">L46</ptr> and <ptr target="#109">L109</ptr>, the "broad road" is the dividing line between the two social classes.
+					Now we are hearing Jose's thoughts, as suggested by the use of the term "extravagant" (see <ptr target="#112">L112</ptr>). She thinks about the geography of the region, which is almost medieval with its castle at the top of the hill and its lower-class houses "at the very bottom." Like the green baize doors in <ptr target="#46">L46</ptr> and <ptr target="#109">L109</ptr>, the "broad road" is the dividing line between the two social classes.
 					<desc>class</desc>
 					<desc>dividers</desc>
 				</interp>
@@ -1333,7 +1372,7 @@
 					stalks, sick hens and tomato cans. 
 				</seg>
 				<interp n="115">
-					As soon as Jose has begun to understand ("true," she admits) Laura's point from <ptr target="#113">L113</ptr>, that they "can't possibly have a garden-party with a man dead just outside the front gate," she dismisses it, seemingly on the basis of the dead man's poverty. Jose thinks derisively about the "little mean" cottages and, by extension, the people in them. That their gardens have only "sick hens" recalls <ptr target="#101">L101</ptr>, where cook is seen to "cluck" "like an agitated hen." Their color scheme--"chocolate brown" stands in contrast to the white theme of the party. 
+					As soon as Jose has begun to understand ("true," she admits) Laura's point from <ptr target="#113">L113</ptr> that they "can't possibly have a garden-party with a man dead just outside the front gate," she dismisses it, seemingly on the basis of the dead man's poverty. Jose thinks derisively about the "little mean" cottages and, by extension, the people in them. That their gardens have only "sick hens" recalls <ptr target="#101">L101</ptr>, where cook is seen to "cluck" "like an agitated hen." Their color scheme--"chocolate brown" stands in contrast to the white theme of the party. 
 					<desc>class</desc>
 					<desc>colors</desc>
 					<desc>animals</desc>
@@ -1418,7 +1457,7 @@
 					"Do, dear," cooed Jose.
 				</seg>
 				<interp n="121">
-					Jose's coo here signals passive aggression.
+					Jose's coo here signals passive aggression and a knowledge of the futility of Laura's endeavor.
 				</interp>
 			</ab>
 
@@ -1467,6 +1506,7 @@
 					"No, no!"
 				</seg>
 				<interp n="126">
+					See Laura's "yes, yes" at <ptr target="#43">L43</ptr>.
 				</interp>
 			</ab>
 
@@ -1477,6 +1517,7 @@
 					took off the big hat and held it on her knees.
 				</seg>
 				<interp n="127">
+					The extent of Mrs. Sheridan's relief here is commiserate with her indifference to the carter's death. 
 				</interp>
 			</ab>
 
@@ -1511,6 +1552,7 @@
 					having our party, shouldn't we?"
 				</seg>
 				<interp n="130">
+					Mrs. Sheridan imagines that death is expected of these people, given the poverty of their housing. Therefore, she seems to argue, this event is so common that it must be treated with indifference.
 				</interp>
 			</ab>
 
@@ -1521,6 +1563,8 @@
 					down on her mother's sofa and pinched the cushion frill.
 				</seg>
 				<interp n="131">
+					Laura's anxiety comes from the tension between what she has to admit is "common sense" and what she feels is right.
+					<desc>conflicting-emotion</desc>
 				</interp>
 			</ab>
 
@@ -1543,6 +1587,7 @@
 					she held up her hand-mirror.
 				</seg>
 				<interp n="133">
+					The implication of Mrs. Sheridan's gesture is that wealth, here represented by this hat, can buy absolution from guilt over this affront to mourning.
 				</interp>
 			</ab>
 
@@ -1585,7 +1630,7 @@
 					gold daisies, and a long black velvet ribbon. 
 				</seg>
 				<interp n="137">
-					The hat is almost a mock-mourning hat: black, but trimmed with gold flowers. The microcosm of this hat seems to portray a mourning scene interrupted by a garden party: all black, but with gold flowers. As in the previous references to gold and silver, the gold here is a sign of wealth, and the daisies are a sign of life. 
+					The hat is almost a mock-mourning hat: black, but trimmed with gold flowers. The microcosm of this hat seems to portray a mourning scene interrupted by a garden party: all black, but with gold flowers. As in the previous references to gold and silver, the gold here is a sign of wealth, and the daisies signify life. 
 					<desc>colors</desc>
 					<desc>black</desc>
 					<desc>flora</desc>
@@ -1677,6 +1722,8 @@
 					after all.
 				</seg>
 				<interp n="144">
+					As Mrs. Sheridan had intended, the hat interrupts Laura's sympathy for the carter, and she forgets to tell Laurie about about the accident.
+					<desc>interruptions</desc>
 				</interp>
 			</ab>
 
@@ -1694,6 +1741,8 @@
 				<interp n="145">
 					<desc>birds</desc>
 					<desc>flora</desc>
+					<desc>eyes</desc>
+					<desc>happiness</desc>
 				</interp>
 			</ab>
 
@@ -1712,6 +1761,7 @@
 					"What a becoming hat, child!"
 				</seg>
 				<interp n="147">
+					Although the ostensible use of this term "becoming" is "befitting, suitable," the choice of this word also suggests Laura's wearing of this adult hat as a sign of "becoming" an adult.
 				</interp>
 			</ab>
 
@@ -1890,6 +1940,8 @@
 					scraps from their party. Would the poor woman really like that?
 				</seg>
 				<interp n="163">
+					Although Mrs. Sheridan argues that this gift is valuable, comprised of "perfectly good food" (<ptr target="#161">L161</ptr>), Laura recognizes this gesture of giving away one's waste as patronizing, since it assumes that the waste of the upper classes is good enough to be the food of the cottages. Laura experiences an inner conflict here, since her intuitive ethical sense conflicts with her desire to heed her mother's advice. 
+					<desc>conflicting-emotions</desc>
 				</interp>
 			</ab>
 
@@ -1922,6 +1974,7 @@
 					arum lilies."
 				</seg>
 				<interp n="166">
+					Arum lilies are usually white, which would be the most inappropriate color for mourning.
 					<desc>flora</desc>
 					<desc>class</desc>
 				</interp>
@@ -1944,6 +1997,8 @@
 					mother followed her out of the marquee—"don't on any account—"
 				</seg>
 				<interp n="168">
+					We are never told what it is that Mrs. Sheridan insists Laura avoid "on any account," but it might be something akin to inviting them to the house. 
+					<desc>interruptions</desc>
 				</interp>
 			</ab>
 
@@ -1974,6 +2029,8 @@
 					hollow the little cottages were in deep shade. 
 				</seg>
 				<interp n="171">
+					The diving line between these two classes is literalized here as lightand darkness.
+					<desc>class</desc>
 					<desc>darkness</desc>
 					<desc>light</desc>
 				</interp>
@@ -1990,7 +2047,10 @@
 					all she thought was, "Yes, it was the most successful party."
 				</seg>
 				<interp n="172">
+					What Laura remembers about the party are sensory impressions: tactile ("kisses"), aural ("voices," "tinkling," "laughter"), and olfactory ("the smell of crushed grass"). Visual memories are noticably absent here, as she descends into the darkness of the lane. Laura is suprised by her own insensitivity to the carter's death; "how strange!" seems to echo "how curious" from <ptr target="#163">L163</ptr>, where she notices that her feelings about this death are not shared by her family members.
+					<desc>sounds</desc>
 					<desc>light</desc>
+					<desc>conflicting-emotions</desc>
 				</interp>
 			</ab>
 
@@ -2004,6 +2064,7 @@
 					crab-like, moved across the window. 
 				</seg>
 				<interp n="173">
+					Although a crab is invoked here to describe the literal creepiness of the shadow on the window (and by extension, perhaps, the person that casts the shadow), there is nonetheless an implicit association, given the economic hierarchy of this story, between bottom-feeding, scavenging crabs and the people that live at the bottom of this hill, to whom Laura is about to give food scraps.
 					<desc>darkness</desc>
 				</interp>
 			</ab>
@@ -2017,6 +2078,7 @@
 					knew all along it was a mistake. Should she go back even now?
 				</seg>
 				<interp n="174">
+					The ostentatiousness of the hat is out-of-place in this locale, especially after this death has occured. Later, she will beg forgiveness for the hat from the dead man himself (<ptr target="#194">L194</ptr>). 
 					<desc>light</desc>
 				</interp>
 			</ab>
@@ -2086,6 +2148,7 @@
 					basket. Mother sent—"
 				</seg>
 				<interp n="180">
+					Laura does not want to take responsibility for the basket, and so she makes it clear that it was her mother's idea to send it. 
 				</interp>
 			</ab>
 
@@ -2097,6 +2160,7 @@
 					followed her.
 				</seg>
 				<interp n="181">
+					"Oily" is an unusual adjective for a voice, and suggests a voice that has changed by mourning, or a voice that is is some way diseased or unclean.
 					<desc>oil</desc>
 				</interp>
 			</ab>
@@ -2108,7 +2172,7 @@
 					lamp. There was a woman sitting before the fire.
 				</seg>
 				<interp n="182">
-					This lamp is likely an oil lamp, rather than a gas or electric lamp.
+					Like "smoky" lane of <ptr target="#173">L173</ptr>, the room itself is filled with smoke. This lamp is likely an oil lamp, rather than a gas or electric lamp, an association that recalls the woman's "oily" voice of <ptr target="#181">L181</ptr> and smile of <ptr target="#187">L187</ptr>.
 					<desc>oil</desc>
 				</interp>
 			</ab>
@@ -2227,6 +2291,9 @@
 					sleeping face. This is just as it should be. I am content.
 				</seg>
 				<interp n="192">
+					This is Laura's inner attempt to reconcile the mirth of the garden party with the morbid reality of the dead carter. Mansfield blends scenes from the party with a view of death as "sleeping," and blends them so well that it is difficult to tell whether "happy... happy..." refers to the "they" who "were laughing" at the garden party or the dead carter whose face says "all is well." 
+					<desc>happiness</desc>
+					<desc>ambiguity</desc>
 				</interp>
 			</ab>
 
@@ -2237,6 +2304,7 @@
 					without saying something to him. Laura gave a loud childish sob.
 				</seg>
 				<interp n="193">
+					If Laura believes the dead man to be "happy" or "sleeping" per <ptr target="#192">L192</ptr>, then this would not elicit her sob. But since Laura knows that the appropriate social reaction to death is crying ("all the same you had to cry"), she "giv[es]" this sob, not unlike the way she "proves" her happiness in <ptr target="#36">L36</ptr>. 
 				</interp>
 			</ab>
 
@@ -2246,6 +2314,8 @@
 					"Forgive my hat," she said.
 				</seg>
 				<interp n="194">
+					This is the "something" from <ptr target="#193">L193</ptr> that she must say to the dead carter. Her hat might be inappropriate to the somber occasion for its decorative gaiety (trimmed with gold daisies), but it could also be that it functions as a marker of adulthood, and given Laura's "childish sob" in <ptr target="#193">L193</ptr>, the hat seems out-of-place.
+					<desc>coming-of-age</desc>
 				</interp>
 			</ab>
 
@@ -2257,6 +2327,7 @@
 					the lane she met Laurie.
 				</seg>
 				<interp n="195">
+					The "dusk" of <ptr target="#171">L171</ptr> has now turned to night--the scene where Laura visit the dead man perfectly coincided with nightfall.
 					<desc>darkness</desc>
 				</interp>
 			</ab>
@@ -2286,6 +2357,7 @@
 					"Mother was getting anxious. Was it all right?"
 				</seg>
 				<interp n="198">
+					It is likely that Mrs. Sheridan is more anxious about Laura spending time with "people like that" (<ptr target="#136">L136</ptr>) than with Laura's emotional experience with encountering death. 
 				</interp>
 			</ab>
 
@@ -2295,6 +2367,7 @@
 					"Yes, quite. Oh, Laurie!" She took his arm, she pressed up against him.
 				</seg>
 				<interp n="199">
+					Here again, Laura "has to say yes" (<ptr target="#131">L131</ptr>) to this question, since she believes (or tells herself) that the carter is "happy" and "sleeping" (<ptr target="#192">L192</ptr>). Her emotional experience of the cottage encounter, however, was overwhelming.
 				</interp>
 			</ab>
 
@@ -2313,6 +2386,7 @@
 					Laura shook her head. She was.
 				</seg>
 				<interp n="201">
+					This is the most literal manifestation of the conflicting feelings Laura has been experiencing in this story.
 					<desc>inversions</desc>
 				</interp>
 			</ab>
@@ -2334,6 +2408,7 @@
 					stopped, she looked at her brother. 
 				</seg>
 				<interp n="203">
+					"Simply marvelous" sounds like more of a platitudinous description of a garden party than a description of an encounter with death. However, Laura thinks of the dead man in <ptr target="#192">L192</ptr> as a "marvel." This phrase thus conveys both Laura's denial of her emotional state, evidenced most literally in <ptr target="#201">L201</ptr>, and also her concept of the death as something to be "marveled" at, wondered, perhaps as a kind of <foreign>memento mori</foreign>. 
 					<desc>inversions</desc>
 				</interp>
 			</ab>
@@ -2345,6 +2420,7 @@
 					understood.
 				</seg>
 				<interp n="204">
+					In true modernist fashion, the story ends without resolution, without answering this question.
 					<desc>interruptions</desc>
 				</interp>
 			</ab>
@@ -2355,6 +2431,7 @@
 					"<emph>Isn't</emph> it, darling?" said Laurie.
 				</seg>
 				<interp n="205">
+					Laurie's affirmative question here mirrors Laura's tag question constructions from <ptr target="#40">L40</ptr>. 
 				</interp>
 			</ab>
 		</body>
