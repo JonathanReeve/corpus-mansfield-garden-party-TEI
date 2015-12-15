@@ -71,13 +71,14 @@
 				<interp n="4">Like the cook, the gardener is not named, but takes the name of his occupation (see also <ptr target="#75">L75</ptr>). Since "rosette" in this sense is a flower-shaped area, we see that there has been a transformation from the living flowers of the daisies to the dead ("dark") patch of grass that bears only the shadow of a flower. The etymology of "rosette" further suggests a metaphorical transformation from daisies (perhaps associated with life in the symbolic economy of the hat in <ptr target="#137">L137</ptr>) to roses, "the only flowers that impress people," according to <ptr target="#5">L5</ptr>. 
 					<desc>flora</desc>
 					<desc>green</desc>
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
 			<ab>
 				<seg n="5">As for the roses, you could not help feeling they understood that roses are the only flowers that impress people at garden-parties; the only flowers that everybody is certain of knowing.</seg>
 				<interp n="5">
-					The roses, like workers from <ptr target="#15">L15</ptr>, are "impressive."
+					The roses, like workers from <ptr target="#15">L15</ptr>, are "impressive." Davis notes that "it is with this view of flowers as socially useful that the workman's spontaneous appreciation of the lavender is contrasted," referring to <ptr target="#30">L30</ptr>. 
 					<desc>flora</desc>
 					<desc>impressions</desc>
 				</interp>
@@ -204,12 +205,11 @@
 					But that sounded so fearfully affected that she was ashamed, and stammered like a little girl, "Oh—er—have you come—is it about the marquee?"
 				</seg>
 				<interp n="17">
-					Laura tries on a metaphorical adult hat in imitating her mother. (She will literally wear an adult's hat in <ptr target="#133">L133</ptr>.) Her stammering is another instance of interrupted speech.
-
-					Robert Davis finds this scene to be essential of the story, arguing that "at the core of most scenes is Laura's attempt first to deal with other people or with experience on a mature level in a style--whether verbal or physical--learned from her mother; then her loss of confidence in that style; and finally her retreat to childish responses" (61). 
-					<!-- use Anxiety reading? --> 
-					<desc>coming-of-age</desc>
+					Laura tries on a metaphorical adult hat in imitating her mother. (She will literally wear an adult's hat in <ptr target="#133">L133</ptr>.) Her stammering is another instance of interrupted speech. Robert Davis finds this scene to be essential of the story, arguing that "at the core of most scenes is Laura's attempt first to deal with other people or with experience on a mature level in a style--whether verbal or physical--learned from her mother; then her loss of confidence in that style; and finally her retreat to childish responses" (61). Thomas Day applies Bakhtin's discourse theory to the understanding of this passage, arguing that "if you can own another's words, by inflectng them with your own accents ... you can exert a degree of ownership over that other which affirms your status within a dominant social group" (130). 
+					<!-- use Anxiety reading, affect theory? --> 
 					<desc>interruptions</desc>
+					<desc>coming-of-age</desc>
+					<desc>voices</desc>
 				</interp>
 			</ab>
 
@@ -220,6 +220,7 @@
 				</seg>
 				<interp n="18">The man's freckles are a sign that he has spent time outdoors, and his straw hat, inexpensive and practical for the summer, is most likely a sign of his social class. That he smiles "down" on her doesn't merely suggest benign age-based condescension, but is a trigonometric indication of how close they must be standing for this angle to be significant. If we conservatively estimate that their height difference is one foot, and that looking "down" implies a downward angle of at least 20 degrees, then they're standing only 2.75 feet apart. If that angle is more pronounced, at 30 degrees, then they must be standing a mere 1.73 feet apart.
 					<desc>class</desc>
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
@@ -466,7 +467,10 @@
 					"Laura, Laura, where are you? Telephone, Laura!" a voice cried from the
 					house.
 				</seg>
-				<interp n="37"></interp>
+				<interp n="37">
+					We are not told who this is, but it is probably Mrs. Sheridan. Day cites this use of the term "voice" along with the other uses (see the "voice" tag) as evidence that "Mansfield insists on the significance of the word 'voice' to the point of echoing the verbal tics of some of her characters who tend to over-wear the words they acquire" (131). 
+					<desc>voices</desc>
+				</interp>
 			</ab>
 
 
@@ -476,7 +480,8 @@
 					across the veranda, and into the porch. In the hall her father and
 					Laurie were brushing their hats ready to go to the office.
 				</seg>
-				<interp n="38">This sequence of prepositional phrases gives an idea of the size of the estate.
+				<interp n="38">This sequence of prepositional phrases gives an idea of the size of the estate. Their office destination and the care they give to their hats shows them to be white-collar workers, but not ones so rich that they don't have to brush their hats themselves.
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
@@ -486,7 +491,7 @@
 					"I say, Laura," said Laurie very fast, "you might just give a squiz at
 					my coat before this afternoon. See if it wants pressing."
 				</seg>
-				<interp n="39">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang ("squiz" roughly means "look"). Their office destination and the care they give to their hats shows them to be white-collar workers, but not ones so rich that they don't have to brush their hats themselves.</interp>
+				<interp n="39">The introduction to Laura's brother Laurie portrays him as someone with an ease of speech evidenced by his use of New Zealand slang ("squiz" roughly means "look"). Day contends that "Mansfield's use of vernacular voices in 'The Garden Party' alludes to this dimension in ways that interrogate th epower on which it is premised, the story enacting ... a drama of displacement and devolutionary identity, with the mother country and its colonial offspring as the macrocosmic protagonists or antagonists" (135).</interp>
 			</ab>
 
 
@@ -510,6 +515,7 @@
 				</seg>
 				<interp n="41">
 					<desc>touch</desc>
+					<desc>voices</desc>
 				</interp>
 			</ab>
 
@@ -545,17 +551,20 @@
 					sweet hat she had on last Sunday."
 				</seg>
 				<interp n="44">Mrs. Sheridan's voice here "floats" like a butterfly.
+					<desc>voices</desc>
 					<desc>butterflies</desc>
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
 
 			<ab>
 				<seg n="45" type="startPara">
-					"Mother says you're to wear that sweet hat you had on last Sunday. Good.
+					"Mother says you're to wear that <emph>sweet</emph> hat you had on last Sunday. Good.
 					One o'clock. Bye-bye."
 				</seg>
-				<interp n="45"></interp>
+				<interp n="45">Day suggests that "sweet" is italicized here to indicate that this wording is not Laura's, but that she is again "copying her mother's voice" (<ptr target="#17">L17</ptr>). 
+				</interp>
 			</ab>
 
 
@@ -572,6 +581,7 @@
 					<desc>colors</desc>
 					<desc>green</desc>
 					<desc>sounds</desc>
+					<desc>voices</desc>
 					<desc>class</desc>
 				</interp>
 			</ab>
@@ -622,6 +632,7 @@
 					careless, "I'm sure I don't know. Wait. I'll ask Mrs Sheridan."
 				</seg>
 				<interp n="50">The florist, who is mentioned in <ptr target="#52">L52</ptr>, but who is nameless, is not heard to speak here, only to "murmur."
+					<desc>voice</desc>
 					<desc>sounds</desc>
 				</interp>
 			</ab>
@@ -871,6 +882,7 @@
 				</seg>
 				<interp n="72">
 					We see that Jose's motivations for singing are more concerned with her vanity than with the pleasure of singing or of entertaining others.
+					<desc>voices</desc>
 				</interp>
 			</ab>
 
@@ -1085,6 +1097,7 @@
 					seen the man pass the window.
 				</seg>
 				<interp n="90">
+					Iversen suggests that, since Godber's man bears of the news of the carter's death, that one could say that "GOD-ber's man comes as an angel of death" (11).
 				</interp>
 			</ab>
 
@@ -1149,6 +1162,7 @@
 				</seg>
 				<interp n="96">
 					Cook knows that the girls' comments about the cream puffs speak to a desire for them, so she allows them to eat some.
+					<desc>voices</desc>
 				</interp>
 			</ab>
 
@@ -1336,7 +1350,7 @@
 					expects us to. Don't be so extravagant."
 				</seg>
 				<interp n="112">
-					The irony is that the party, not its would-be cancellation, is extravagant. 
+					The irony is that the party, not its would-be cancellation, is extravagant. Iversen notes that "Laura's sympathy is <emph>extravagant</emph> in the precise etymological sense of the word: it wanders beyond the bounds of the garden" (12).  
 					<desc>absurdity</desc>
 				</interp>
 			</ab>
@@ -1637,6 +1651,7 @@
 					<desc>black</desc>
 					<desc>flora</desc>
 					<desc>silver-gold</desc>
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
@@ -1988,6 +2003,7 @@
 					"The stems will ruin her lace frock," said practical Jose.
 				</seg>
 				<interp n="167">
+					Davis claims Laura is wearing white lace, but apart from the fact that this would be a likely color to wear to a garden party, there doesn't seem to be any textual evidence to support this (63).
 					<desc>flora</desc>
 				</interp>
 			</ab>
@@ -2051,6 +2067,7 @@
 				<interp n="172">
 					What Laura remembers about the party are sensory impressions: tactile ("kisses"), aural ("voices," "tinkling," "laughter"), and olfactory ("the smell of crushed grass"). Visual memories are noticably absent here, as she descends into the darkness of the lane. Laura is suprised by her own insensitivity to the carter's death; "how strange!" seems to echo "how curious" from <ptr target="#163">L163</ptr>, where she notices that her feelings about this death are not shared by her family members.
 					<desc>sounds</desc>
+					<desc>voices</desc>
 					<desc>light</desc>
 					<desc>conflicting-emotions</desc>
 				</interp>
@@ -2095,6 +2112,7 @@
 					though they had known she was coming here.
 				</seg>
 				<interp n="175">
+					<desc>voices</desc>
 					<desc>darkness</desc>
 				</interp>
 			</ab>
@@ -2107,6 +2125,7 @@
 					woman, smiling queerly, said, "It is, my lass."
 				</seg>
 				<interp n="176">
+					Day compares this coming seen and the one to follow to fairy tales.Laura, carrying a basket like LIttle Red Riding Hood, "enters the Hansel and Gretelesque 'chocolate brown' (<ptr target="#115">L115</ptr>) cottage, meets a woman whose sly voice is a clue to her type, and gets the traditional traumatic lesson in children's morality" (137). 
 				</interp>
 			</ab>
 
@@ -2258,6 +2277,7 @@
 					looks a picture. There's nothing to show. Come along, my dear."
 				</seg>
 				<interp n="189">
+					<desc>voices</desc>
 					<desc>death</desc>
 				</interp>
 			</ab>
@@ -2296,7 +2316,7 @@
 					sleeping face. This is just as it should be. I am content.
 				</seg>
 				<interp n="192">
-					This is Laura's inner attempt to reconcile the mirth of the garden party with the morbid reality of the dead carter. Mansfield blends scenes from the party with a view of death as "sleeping," and blends them so well that it is difficult to tell whether "happy... happy..." refers to the "they" who "were laughing" at the garden party or the dead carter whose face says "all is well." 
+					This is Laura's inner attempt to reconcile the mirth of the garden party with the morbid reality of the dead carter. Mansfield blends scenes from the party with a view of death as "sleeping," and blends them so well that it is difficult to tell whether "happy... happy..." refers to the "they" who "were laughing" at the garden party or the dead carter whose face says "all is well." Davis calls these lines "insistent repetition and sentimental metaphors" that "indicate the childishness of her thoughts," but given the other references to sleeping and dreaming, and their associations, there is more to this metaphor than sentimentality (64). 
 					<desc>happiness</desc>
 					<desc>ambiguity</desc>
 				</interp>
@@ -2319,8 +2339,9 @@
 					"Forgive my hat," she said.
 				</seg>
 				<interp n="194">
-					This is the "something" from <ptr target="#193">L193</ptr> that she must say to the dead carter. Her hat might be inappropriate to the somber occasion for its decorative gaiety (trimmed with gold daisies), but it could also be that it functions as a marker of adulthood, and given Laura's "childish sob" in <ptr target="#193">L193</ptr>, the hat seems out-of-place.
+					This is the "something" from <ptr target="#193">L193</ptr> that she must say to the dead carter. Her hat might be inappropriate to the somber occasion for its decorative gaiety (trimmed with gold daisies), but it could also be that it functions as a marker of adulthood, and given Laura's "childish sob" in <ptr target="#193">L193</ptr>, the hat seems out-of-place. Davis notices that Laura says "my hat" here, instead of "the ... hat," from <ptr target="#174">L174</ptr>.
 					<desc>coming-of-age</desc>
+					<desc>hats</desc>
 				</interp>
 			</ab>
 
@@ -2425,7 +2446,7 @@
 					understood.
 				</seg>
 				<interp n="204">
-					In true modernist fashion, the story ends without resolution, without answering this question.
+					In true modernist fashion, the story ends without resolution, without answering this question. This is part of what, for Walker, "leaves readers with a feeling of dissatisfaction, a vague sense that the story somehow does not realize its potential" (354). Walker suggests that this question might be completed with "myserious, or surprising, or something else," but a more likely answer, given indirectly by the song in <ptr target="#70">L70</ptr>, is "weary" (358). 
 					<desc>interruptions</desc>
 				</interp>
 			</ab>

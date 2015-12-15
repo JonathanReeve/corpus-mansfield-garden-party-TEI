@@ -18,7 +18,7 @@ img {
 	text-align: center; 
 } 
 
-.header-area { 
+.header-area, .references { 
 	margin-left: 15%; 
 	margin-right: 15%; 
 } 
@@ -84,4 +84,9 @@ td {
 		margin-left: 10%; 
 		margin-right: 10%; 
 	} 
+} 
+
+.references { 
+	text-indent: -2em; 
+	padding-left: 4em;
 } 

@@ -6,10 +6,14 @@ header.html: README.md
 garden-party.html: garden-party.xsl garden-party.xml
 	xsltproc $^ > $@
 
-main.html: garden-party.html header.html
-	sed -e '/INSERTHEADERHERE/{r header.html' -e 'd}' garden-party.html > main.html
+works-cited.html: works-cited.md Mansfield.bib
+	pandoc -o $@ $< --smart --filter pandoc-citeproc
+
+main.html: garden-party.html header.html works-cited.html
+	sed -e '/INSERTHEADERHERE/{r header.html' -e 'd}' $< > $@
+	cat works-cited.html >> $@
 
 show: 
 	gvfs-open main.html
 clean: 
-	rm garden-party.html header.html main.html
+	rm garden-party.html header.html works-cited.html main.html 
