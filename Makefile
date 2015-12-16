@@ -6,7 +6,7 @@ header.html: README.md
 garden-party.html: garden-party.xsl garden-party.xml
 	xsltproc $^ > $@
 
-works-cited.html: works-cited.md Mansfield.bib
+works-cited.html: works-cited.md works-cited.bib
 	pandoc -o $@ $< --smart --filter pandoc-citeproc
 
 main.html: garden-party.html header.html works-cited.html

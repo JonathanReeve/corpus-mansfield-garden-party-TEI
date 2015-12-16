@@ -1,4 +1,7 @@
+#An Experiment in Non-Linear Literary Criticism 
 #Literary Criticism
+
+To state the obvious, literary criticism typically takes the form of a story, centered around a central theme or argument.  
 
 ![Narrative Criticism](images/narrative-criticism.png)
 

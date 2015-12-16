@@ -40,6 +40,7 @@
 			<ab>
 				<seg n="1" type="startPara">And after all the weather was ideal.</seg>
 				<interp n="1">This sentence begins <foreign>in medias res</foreign>, as if the reader were joining a conversation that was already taking place. The word "and" also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see these calculations in <ptr target="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/ands.ipynb">the "and" notebook</ptr>).
+					<desc>perfection</desc>
 					<desc>interruptions</desc>
 					<desc>medias-res</desc>
 				</interp>
@@ -193,7 +194,7 @@
 					Laura wished now that she had not got the bread-and-butter, but there was nowhere to put it, and she couldn't possibly throw it away. 
 					She blushed and tried to look severe and even a little bit short-sighted as she came up to them.
 				</seg>
-				<interp n="16">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>. Her blush might be used here to signal Laura's inability to reconcile her excitement for the men with her social position as their director and deputy employer. She might also feel embarrassed at her liminal state--interrupted in the middle of breakfast--a feeling which she tries to counterbalance by looking "severe."
+				<interp n="16">Laura wishes she was not as delicate, as attention-getting as a butterfly, attracting the smiles from these men that we see in <ptr target="#18">L18</ptr> and <ptr target="#19">L19</ptr>. Her blush might be used here to signal Laura's inability to reconcile her excitement for the men with her social position as their director and deputy employer. She might also feel embarrassed at her liminal state--interrupted in the middle of breakfast--a feeling which she tries to counterbalance by looking "severe." Regarding Laura's attempt to "look severe and even a little bit short-sighted," Kleine describes this as Laura's "practic[ing] adult faces" (365).
 					<desc>butterflies</desc>
 				</interp>
 			</ab>
@@ -501,7 +502,7 @@
 					Laurie and gave him a small, quick squeeze. "Oh, I do love parties,
 					don't you?" gasped Laura.
 				</seg>
-				<interp n="40">Laura's syntactic construction asks her brother for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?".
+				<interp n="40">Laura's syntactic construction asks her brother for emotional affirmation--the tag question "don't you" mirrors her final question "isn't life?". Severin argues that these tag questions "creates a façade of open dialogue by giving the appearance of soliciting opinion and presenting choice. In reality, however, these structures obtain assent by reducing the likelihood for challenge" (3). Although Severin may be right about the implications of some of these questions, such as Jose's "Aren't I in a good voice mummy?" of <ptr target="#72">L72</ptr>, but his hypothesis doesn't seem as applicable in this particular lexia.
 					<desc>inversions</desc>
 					<desc>touch</desc>
 				</interp>
@@ -802,7 +803,7 @@
 					made them feel they were taking part in some drama. "Tell mother and
 					Miss Laura to come here at once.
 				</seg>
-				<interp n="66">"They loved obeying her" is more likely Jose's thought, rather than Hans's.
+				<interp n="66">"They loved obeying her" is more likely Jose's thought, rather than Hans's. Citing the "drama" that she imagines, Kleine argues that "Jose's attitude toward life is essentially theatrical ... Her thespianism stems from a defect, not an excess, of imagination. Jose believes people (especially servants) are a game you play and, despite her undeniable skill at the game, she cannot respect people, since to play the game at all you must make them into dolls" (367).
 					<desc>servants</desc>
 					<desc>class</desc>
 				</interp>
@@ -1036,7 +1037,6 @@
 				</seg>
 				<interp n="84">
 					If these are black olives, this detail might be read as subtly foreshadowing the death to come later in the story. Their mistaken association with mice, and Mrs. Sheridan's descriptor "horrible" further cement this view, especially since the term is used by Cook in <ptr target="#103">L103</ptr> and Mr. Sheridan in <ptr target="#158">L158</ptr> to describe the carter's death. Furthermore, since an egg is a pre-birth state, the olives appear in contrast to be even more of a image of postmortem decay.
-					<desc>colors</desc>
 					<desc>food</desc>
 					<desc>death</desc>
 				</interp>
@@ -1513,6 +1513,7 @@
 					"<emph>Not</emph> in the garden?" interrupted her mother.
 				</seg>
 				<interp n="125">
+					Mrs. Sheridan is only concerned about this man's death if it has in some way disrupted her party.
 				</interp>
 			</ab>
 
@@ -1603,7 +1604,7 @@
 					she held up her hand-mirror.
 				</seg>
 				<interp n="133">
-					The implication of Mrs. Sheridan's gesture is that wealth, here represented by this hat, can buy absolution from guilt over this affront to mourning.
+					The implication of Mrs. Sheridan's gesture is that wealth, here represented by this hat, can buy absolution from guilt over this affront to mourning. The way Mrs. Sheridan puts it directly on Laura's head leads Magalaner to call this a "coronation," whereby Mrs. Sheridan "symbolically transfer[s] to Laura the Sheridan heritage of snobbery, restricted social views, narrowness of vision" (116-117). 
 				</interp>
 			</ab>
 
@@ -1756,6 +1757,7 @@
 					hands, press cheeks, smile into eyes.
 				</seg>
 				<interp n="145">
+					The actual party only takes place in five lexias--between here and <ptr target="#150">L150</ptr>. This represents less than 2.5% of the entire story. 
 					<desc>birds</desc>
 					<desc>flora</desc>
 					<desc>eyes</desc>
@@ -1769,6 +1771,7 @@
 					"Darling Laura, how well you look!"
 				</seg>
 				<interp n="146">
+					<desc>party</desc>
 				</interp>
 			</ab>
 
@@ -1779,6 +1782,7 @@
 				</seg>
 				<interp n="147">
 					Although the ostensible use of this term "becoming" is "befitting, suitable," the choice of this word also suggests Laura's wearing of this adult hat as a sign of "becoming" an adult.
+					<desc>party</desc>
 				</interp>
 			</ab>
 
@@ -1789,6 +1793,7 @@
 				</seg>
 				<interp n="148">
 					Laura is here associated with Spain, just as Meg was earlier associated with the Middle East, and Jose with Japan. The reasons for these associations are unclear, except that they are all countries that are very distant from New Zealand, where this story takes place.
+					<desc>party</desc>
 				</interp>
 			</ab>
 
@@ -1801,6 +1806,7 @@
 					to drink?"
 				</seg>
 				<interp n="149">
+					<desc>party</desc>
 				</interp>
 			</ab>
 
@@ -1815,6 +1821,7 @@
 					<desc>flora</desc>
 					<desc>coming-of-age</desc>
 					<desc>death</desc>
+					<desc>party</desc>
 				</interp>
 			</ab>
 
@@ -2015,7 +2022,7 @@
 					mother followed her out of the marquee—"don't on any account—"
 				</seg>
 				<interp n="168">
-					We are never told what it is that Mrs. Sheridan insists Laura avoid "on any account," but it might be something akin to inviting them to the house. 
+					We are never told what it is that Mrs. Sheridan insists Laura avoid "on any account," but it might be something akin to inviting them to the house. Iversen posits that it's "go in and see the dead man," and Taylor similarly imagines that it's "look at the dead man," but Mrs. Sheridan would undoubtedly be more concerned with how she will be affected by Laura's visit than how Laura might be affected by it (26).
 					<desc>interruptions</desc>
 				</interp>
 			</ab>
@@ -2047,7 +2054,7 @@
 					hollow the little cottages were in deep shade. 
 				</seg>
 				<interp n="171">
-					The diving line between these two classes is literalized here as lightand darkness.
+					The diving line between these two classes is literalized here as lightand darkness. Taylor compares this journey to a journey into Avernus, with the dog as Cerberus and the road the river Styx. 
 					<desc>class</desc>
 					<desc>darkness</desc>
 					<desc>light</desc>
@@ -2339,7 +2346,7 @@
 					"Forgive my hat," she said.
 				</seg>
 				<interp n="194">
-					This is the "something" from <ptr target="#193">L193</ptr> that she must say to the dead carter. Her hat might be inappropriate to the somber occasion for its decorative gaiety (trimmed with gold daisies), but it could also be that it functions as a marker of adulthood, and given Laura's "childish sob" in <ptr target="#193">L193</ptr>, the hat seems out-of-place. Davis notices that Laura says "my hat" here, instead of "the ... hat," from <ptr target="#174">L174</ptr>.
+					This is the "something" from <ptr target="#193">L193</ptr> that she must say to the dead carter. Her hat might be inappropriate to the somber occasion for its decorative gaiety (trimmed with gold daisies), but it could also be that it functions as a marker of adulthood, and given Laura's "childish sob" in <ptr target="#193">L193</ptr>, the hat seems out-of-place. Davis notices that Laura says "my hat" here, instead of "the ... hat," from <ptr target="#174">L174</ptr>, arguing that "in accepting the hat ... she accepts intuitively its symbolic components," namely, that it symbolizes the life represented by the garden party (65). Talyor suggests that in this moment Laura "rejects at last the meaningless dream of the garden party and stands now on the threshold of the real world, sinister at first, but now transmuted into beauty by the dream of death" (362). 
 					<desc>coming-of-age</desc>
 					<desc>hats</desc>
 				</interp>
@@ -2394,6 +2401,7 @@
 				</seg>
 				<interp n="199">
 					Here again, Laura "has to say yes" (<ptr target="#131">L131</ptr>) to this question, since she believes (or tells herself) that the carter is "happy" and "sleeping" (<ptr target="#192">L192</ptr>). Her emotional experience of the cottage encounter, however, was overwhelming.
+					<desc>touch</desc>
 				</interp>
 			</ab>
 
@@ -2424,6 +2432,7 @@
 					loving voice. "Was it awful?"
 				</seg>
 				<interp n="202">
+					<desc>touch</desc>
 				</interp>
 			</ab>
 
@@ -2446,7 +2455,7 @@
 					understood.
 				</seg>
 				<interp n="204">
-					In true modernist fashion, the story ends without resolution, without answering this question. This is part of what, for Walker, "leaves readers with a feeling of dissatisfaction, a vague sense that the story somehow does not realize its potential" (354). Walker suggests that this question might be completed with "myserious, or surprising, or something else," but a more likely answer, given indirectly by the song in <ptr target="#70">L70</ptr>, is "weary" (358). 
+					In true modernist fashion, the story ends without resolution, without answering this question. This is part of what, for Walker, "leaves readers with a feeling of dissatisfaction, a vague sense that the story somehow does not realize its potential" (354). As Severn puts it, this line "denies the reader access to what presumably would be a final, authoritative pronouncement regarding the outcome of the day's events" (2). Walker suggests that this question might be completed with "myserious, or surprising, or something else," but a more likely answer, given indirectly by the song in <ptr target="#70">L70</ptr>, is "weary" (358). 
 					<desc>interruptions</desc>
 				</interp>
 			</ab>
