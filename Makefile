@@ -1,7 +1,9 @@
 default: main.html show
 
 header.html: README.md
-	pandoc -o $@ $^ --smart
+	pandoc -o $@ $^ \
+		--smart \
+		--filter pandoc-crossref
 
 garden-party.html: garden-party.xsl garden-party.xml
 	xsltproc $^ > $@
