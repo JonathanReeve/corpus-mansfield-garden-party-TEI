@@ -1,4 +1,4 @@
-default: main.html show
+default: index.html show
 
 header.html: README.md
 	pandoc -o $@ $^ \
@@ -11,11 +11,11 @@ garden-party.html: garden-party.xsl garden-party.xml
 works-cited.html: works-cited.md works-cited.bib
 	pandoc -o $@ $< --smart --filter pandoc-citeproc
 
-main.html: garden-party.html header.html works-cited.html
+index.html: garden-party.html header.html works-cited.html
 	sed -e '/INSERTHEADERHERE/{r header.html' -e 'd}' $< > $@
 	cat works-cited.html >> $@
 
 show: 
-	gvfs-open main.html
+	gvfs-open index.html
 clean: 
 	rm garden-party.html header.html works-cited.html main.html 
