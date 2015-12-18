@@ -6,7 +6,7 @@ figPrefix: Figure
 #Tag, Catalog, Iterate: A Non-Linear Analysis of Katherine Mansfield's "The Garden Party"
 ##Jonathan Reeve
 
-Works of literary criticism are typically built around their central arguments. The argument is often an opinion about a theme, function, or other attribute of a text, and it is presented along with textual evidence that supports it. This usually means that a critical work closely examines textual details that are relevant to its thesis, while moving past or even ignoring less relevant details. [@fig:narrative-criticism] shows a simplified illustration of this process. If each segment in the primary text contains details of types A, B, C, or D, a typical critical work will select one or more of these details for its analysis, while other details remain either less examined or fully unexamined. 
+Works of literary criticism are typically built around their central arguments. The argument is often an opinion about a theme, function, or other textual attribute, and it is presented along with textual evidence that supports it. This usually means that a critical work closely examines textual details that are relevant to its thesis, while moving past or even ignoring less relevant details. [@fig:narrative-criticism] shows a simplified illustration of this process. If each segment in the primary text contains details of types A, B, C, or D, a typical critical work will select one or more of these details for its analysis, while other details remain either less examined or fully unexamined. 
 
 ![Narrative Criticism](images/narrative-criticism.png){#fig:narrative-criticism}
 
