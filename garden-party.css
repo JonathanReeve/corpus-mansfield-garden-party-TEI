@@ -75,6 +75,11 @@ td {
 	width: 50%; 
 } 
 
+.references { 
+	text-indent: -2em; 
+	padding-left: 4em;
+} 
+
 /* Mobile Views */ 
 @media screen and (max-width: 769px) {
 
@@ -87,7 +92,35 @@ td {
 	} 
 } 
 
-.references { 
-	text-indent: -2em; 
-	padding-left: 4em;
+
+@media print { 
+	html { 
+		font-size: 12px !important; 
+		margin: 0; 
+	} 
+	body { 
+		width: 100%; 
+	} 
+	h1 { 
+		font-size: 16px; 
+	} 
+	h2 { 
+		font-size: 14px; 
+	} 
+	table { 
+		font-size: 12px;
+	} 
+	.header-area, .references { 
+		margin-left: 5%; 
+		margin-right: 5%; 
+	} 
 } 
+
+@page { 
+	size: auto;   /* auto is the initial value */ 
+
+	/* this affects the margin in the printer settings */ 
+	margin: 25mm 25mm 25mm 25mm;  
+} 
+
+
