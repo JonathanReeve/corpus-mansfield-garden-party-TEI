@@ -18,6 +18,11 @@ img {
 	text-align: center; 
 } 
 
+.header-area { 
+	/* just a little space at the top of the page to make it classy */
+	margin-top: 5em;
+} 
+
 .header-area, .references { 
 	margin-left: 15%; 
 	margin-right: 15%; 
