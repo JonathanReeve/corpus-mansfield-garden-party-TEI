@@ -42,7 +42,6 @@
 				<interp n="1">This sentence begins <foreign>in medias res</foreign>, as if the reader were joining a conversation that was already taking place. The word “and” also begins about thirty other sentences in the story, or roughly 5% of the story's sentences (see these calculations in <ptr target="https://github.com/JonathanReeve/corpus-mansfield-garden-party-TEI/blob/master/ands.ipynb">the “and” notebook</ptr>).
 					<desc>perfection</desc>
 					<desc>interruptions</desc>
-					<desc>medias-res</desc>
 				</interp>
 
 			</ab> 
